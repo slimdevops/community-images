@@ -40,7 +40,7 @@ jobs:
       DIGEST: ${{ github.event.inputs.digest }}
       TAG: ${{ github.event.inputs.tag }}
       SLIM_IMAGE_NS: ${{ secrets.SLIM_IMAGE_NS }}
-      CONNECTOR_ID: "rkcn.2MxgCt3uTesawmpZ8P66gIxUi8v" #${{ secrets.CONNECTOR_ID }}
+      CONNECTOR_ID: ${{ secrets.CONNECTOR_ID }}
       ACTION_RUNNER_URL: "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
       SLIM_IMAGE_REGISTRY: ${{ secrets.SLIM_IMAGE_REGISTRY }}
     steps:
