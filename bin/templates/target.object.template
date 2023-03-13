@@ -1,0 +1,15 @@
+{
+    "type": "target",
+    "reference": {
+    "type": "container.image",
+    "store": {
+        "type": "connector",
+        "connector": "dockerhub.public"
+    },
+    "attributes": {
+        "namespace": "__NAMESPACE__",
+        "repo": "__REPOSITORY__",
+        "version": "__TAG__"
+    }
+    }
+}

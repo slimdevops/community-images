@@ -1,0 +1,25 @@
+{
+  "config": {
+      "type": "inline",
+      "save": false,
+      "data": {
+          "name": "cfg",
+          "command": "xray",
+          "params": [
+                __TARGET_OBJECT_ENTRY__,
+              {
+                  "type": "output",
+                  "reference": {
+                      "type": "container.image",
+                      "store": {
+                          "type": "internal"
+                      },
+                      "attributes": {
+                          "save": "false"
+                      }
+                  }
+              }
+          ]
+      }
+  }
+}

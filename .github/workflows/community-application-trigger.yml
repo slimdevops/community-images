@@ -1,0 +1,219 @@
+name: Community Image Runner
+on:
+  workflow_dispatch:
+    inputs:
+      watcher_id:
+        description: "Watcher ID"
+        required: true
+      digest:
+        description: "Image Digest"
+        required: false
+        default: ""
+      registry:
+        description: "Image Registry"
+        required: false
+        default: "docker.io"
+      namespace:
+        description: "Image Namespace"
+        required: true
+      repository:
+        description: "Image Repository"
+        required: true
+      tag:
+        description: "Image TAG"
+        required: true
+      os:
+        description: "Image OS"
+        required: true
+      arch:
+        description: "Image Arch"
+        required: true
+run-name: "Running: ${{ github.event.inputs.registry}}/${{ github.event.inputs.namespace}}/${{ github.event.inputs.repository}}:${{ github.event.inputs.tag}}"
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    env:
+      REGISTRY: ${{ github.event.inputs.registry }}
+      NAMESPACE: ${{ github.event.inputs.namespace }}
+      REPOSITORY: ${{ github.event.inputs.repository }}
+      DIGEST: ${{ github.event.inputs.digest }}
+      TAG: ${{ github.event.inputs.tag }}
+      SLIM_IMAGE_NS: ${{ secrets.SLIM_IMAGE_NS }}
+      CONNECTOR_ID: ${{ secrets.CONNECTOR_ID }}
+      ACTION_RUNNER_URL: "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+    steps:
+      - uses: actions/checkout@v3
+      - uses: docker/login-action@v2
+        with:
+          registry: ghcr.io
+          username: ${{ secrets.GHCR_ACTOR  }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Dependencies
+        env:
+          API_TOKEN: ${{ secrets.API_TOKEN }}
+          ORGANIZATION_ID: ${{ secrets.ORGANIZATION_ID }}
+        run: "${GITHUB_WORKSPACE}/bin/setup_dependencies.sh"
+
+      - name: Identify Community Image Project
+        id: project-identify
+        run: " $GITHUB_WORKSPACE/bin/identify.sh"
+
+      - name: Configure Community Project
+        working-directory: "${{ env.PROJECT_PATH }}"
+        run: "${GITHUB_WORKSPACE}/bin/configure_project.sh && ${HOOK_EXEC} project-setup"
+
+      #FAT OPERATIONS
+      - name: "Fat Containerization"
+        working-directory: "${{ env.PROJECT_PATH }}"
+        env:
+          STAGE: "FAT"
+        run: "${GITHUB_WORKSPACE}/bin/fat.sh && ${GITHUB_WORKSPACE}/bin/run.sh"
+
+      - name: "Wait for Application Launch"
+        env:
+          STAGE: "FAT"
+        if: env.WAIT_FOR_APP_PORT == 1
+        run: "${GITHUB_WORKSPACE}/bin/wait_port.sh"
+
+      - name: "Fat Test Suite"
+        continue-on-error: true
+        working-directory: "${{ env.PROJECT_PATH }}"
+        env:
+          STAGE: "FAT"
+          ENV_TEST: "fat"
+        run: "${GITHUB_WORKSPACE}/bin/test.sh"
+
+      - name: "Fat Cleanup"
+        env:
+          STAGE: "FAT"
+        run: "${GITHUB_WORKSPACE}/bin/cleanup.sh"
+
+      #GENERATE SLIM/INSTRUMENT IMAGE
+      - name: "Process Via Slim.ai"
+        run: "${GITHUB_WORKSPACE}/bin/cli_instrument.sh"
+
+      #INSTRUMENTATION
+
+      - name: "Instrumented Containerization"
+        working-directory: "${{ env.PROJECT_PATH }}"
+        env:
+          STAGE: "INSTRUMENT"
+        timeout-minutes: 3
+        run: "${GITHUB_WORKSPACE}/bin/run.sh"
+
+      - name: "Wait for Application Launch"
+        env:
+          STAGE: "INSTRUMENT"
+        if: env.WAIT_FOR_APP_PORT == 1
+        run: "${GITHUB_WORKSPACE}/bin/wait_port.sh"
+
+      - name: "Instrumented Test Suite"
+        continue-on-error: true
+        working-directory: "${{ env.PROJECT_PATH }}"
+        env:
+          STAGE: "INSTRUMENT"
+          ENV_TEST: "instrumented"
+        run: "${GITHUB_WORKSPACE}/bin/test.sh"
+
+      - name: "Instrumented Cleanup"
+        env:
+          STAGE: "INSTRUMENT"
+        run: "${GITHUB_WORKSPACE}/bin/cleanup.sh"
+
+      #Create Hardened Image
+      - name: "Harden Via Slim.ai"
+        working-directory: "${{ env.PROJECT_PATH }}"
+        run: "${GITHUB_WORKSPACE}/bin/harden.sh"
+
+      #SLIMMED OPERATIONS
+
+      - name: "Hardened Containerization"
+        working-directory: "${{ env.PROJECT_PATH }}"
+        env:
+          STAGE: "SLIM"
+        timeout-minutes: 3
+        run: "${GITHUB_WORKSPACE}/bin/run.sh"
+
+      - name: "Wait for Application Launch"
+        env:
+          STAGE: "SLIM"
+        if: env.WAIT_FOR_APP_PORT == 1
+        run: "${GITHUB_WORKSPACE}/bin/wait_port.sh"
+
+      - name: "Hardened Test Suite"
+        continue-on-error: true
+        working-directory: "${{ env.PROJECT_PATH }}"
+        env:
+          STAGE: "SLIM"
+          ENV_TEST: "slim"
+        run: "${GITHUB_WORKSPACE}/bin/test.sh"
+
+      - name: "Hardened Cleanup"
+        env:
+          STAGE: "SLIM"
+        run: "${GITHUB_WORKSPACE}/bin/cleanup.sh"
+
+      #TEST RESULTS
+
+      - name: "Compare Test Results"
+        working-directory: "${{ env.PROJECT_PATH }}"
+        run: " ${GITHUB_WORKSPACE}/bin/junit_test_compare.sh"
+
+      - name: "Create Test Result Artifact"
+        uses: actions/upload-artifact@v3
+        with:
+          name: "Test Results"
+          path: "${{ env.PROJECT_PATH }}/results"
+          retention-days: 5
+
+      - name: "X-Ray"
+        env:
+          API_DOMAIN: ${{ secrets.API_DOMAIN }}
+          ORGANIZATION_ID: ${{ secrets.ORGANIZATION_ID }}
+          API_TOKEN: ${{ secrets.API_TOKEN }}
+        run: " ${GITHUB_WORKSPACE}/bin/x_ray_report.sh"
+
+      - name: "Vulnerability Scan"
+        env:
+          API_DOMAIN: ${{ secrets.API_DOMAIN }}
+          ORGANIZATION_ID: ${{ secrets.ORGANIZATION_ID }}
+          API_TOKEN: ${{ secrets.API_TOKEN }}
+        run: " ${GITHUB_WORKSPACE}/bin/vulnerability_report.sh"
+
+      - name: "Vulnerability Scan Artifact"
+        if: env.PROJECT_VSCAN_DONE == 'true' || env.PROJECT_VSCAN_DONE == 'true'
+        uses: actions/upload-artifact@v3
+        with:
+          name: "X-Ray and Vulnerability Scan"
+          path: "${{ env.PROJECT_PATH }}/vscan-xray-reports"
+          retention-days: 5
+
+      - name: Pull Repo Changes
+        if: always() && steps.project-identify.outputs.PROJECT_IDENTIFIED
+        run: |
+          git config --global user.email "marketing@slim.ai"
+          git config --global user.name "slim-bot"
+          git config pull.ff only
+          git pull
+
+      - name: Failure Event
+        if: failure() && steps.project-identify.outputs.PROJECT_IDENTIFIED
+        run: |
+          node ${GITHUB_WORKSPACE}/bin/status.js failed
+          git add ${PROJECT_PATH}/README.md
+          git add ${GITHUB_WORKSPACE}/README.md
+          git commit -m "docs: ${PROJECT_ORIGINAL_IMAGE} -> failed"
+          git pull
+          git push origin HEAD:${GITHUB_REF}
+
+      - name: Success Event
+        if: success() && steps.project-identify.outputs.PROJECT_IDENTIFIED
+        run: |
+          node ${GITHUB_WORKSPACE}/bin/status.js success
+          git add ${PROJECT_PATH}/README.md
+          git add ${GITHUB_WORKSPACE}/README.md
+          git commit -m "docs: ${PROJECT_ORIGINAL_IMAGE} -> success"
+          git pull
+          git push origin HEAD:${GITHUB_REF}
