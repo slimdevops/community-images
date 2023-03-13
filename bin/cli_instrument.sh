@@ -5,10 +5,14 @@ SCRIPT_DIR=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" &>/dev/null && pwd)
 HELPER_DIR="$SCRIPT_DIR/helpers"
 BASEIMAGE=""
 
+TARGET_CONNECTOR=""
+
 if [[ $PROJECT_SOURCE == "dockerfile" ]]; then
   BASEIMAGE=$PROJECT_TARGET_IMAGE
+  TARGET_CONNECTOR=$CONNECTOR_ID
 else
   BASEIMAGE=$PROJECT_ORIGINAL_IMAGE
+  TARGET_CONNECTOR="dockerhub.public"
 fi
 
 result=$($HELPER_DIR/flatten_json.sh "$PROJECT_FULL_PATH/project.json" ".slim_cli" "--" "=")
@@ -19,12 +23,13 @@ elif [[ "$?" == "2" ]]; then
 else
   echo $result
   exit 1
+  #$PROJECT_TARGET_IMAGE/
 fi
 
 echo "Additional Args: $extraArgs"
 
 log_output=$(slim instrument \
-  --target-image-connector dockerhub.public \
+  --target-image-connector $TARGET_CONNECTOR \
   --instrumented-image-connector $CONNECTOR_ID \
   --instrumented-image $PROJECT_FULL_IMAGE_INSTRUMENTED \
   --hardened-image-connector $CONNECTOR_ID \

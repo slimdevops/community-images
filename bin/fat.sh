@@ -8,10 +8,10 @@ fi
 if [[ $PROJECT_SOURCE == "dockerfile" ]]; then
     #Build Dockerfile
     $HOOK_EXEC before-build fat
-    docker build . --file Dockerfile --tag $PROJECT_TARGET_IMAGE
+    docker build . --file Dockerfile --tag $SLIM_IMAGE_REGISTRY/$PROJECT_TARGET_IMAGE
     $HOOK_EXEC after-build fat
 
     $HOOK_EXEC before-push fat
-    docker push $PROJECT_TARGET_IMAGE
+    docker push $SLIM_IMAGE_REGISTRY/$PROJECT_TARGET_IMAGE
     $HOOK_EXEC after-push fat
 fi
