@@ -27,7 +27,15 @@ else
 fi
 
 echo "Additional Args: $extraArgs"
-
+echo "slim instrument \
+  --target-image-connector $TARGET_CONNECTOR \
+  --instrumented-image-connector $CONNECTOR_ID \
+  --instrumented-image $PROJECT_FULL_IMAGE_INSTRUMENTED \
+  --hardened-image-connector $CONNECTOR_ID \
+  --hardened-image $PROJECT_FULL_IMAGE_SLIMMED \
+  $extraArgs \
+  $BASEIMAGE"
+  
 log_output=$(slim instrument \
   --target-image-connector $TARGET_CONNECTOR \
   --instrumented-image-connector $CONNECTOR_ID \
