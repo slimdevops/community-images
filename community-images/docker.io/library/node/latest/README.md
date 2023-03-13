@@ -1,5 +1,5 @@
 
-[Slim.AI Banner Image](/docs/images/SlimBanner_3.png)
+![Slim.AI Banner Image](/docs/images/SlimBanner_3.png)
 
 Looking to ship library/node to production in a secure way without spending hours wrestling with your Dockerfiles? 
 
@@ -9,7 +9,7 @@ Images labelled `Hello World` are meant to be starting points for application de
 
 The process starts by building an containerized application based off of the library/node image, and then runs it against its test suite found in the project folder.
 
-[Process Diagram](/docs/images/HowItWorksV2.png)
+![Process Diagram](/docs/images/HowItWorksV2.png)
 
 Next, we use Slim.AI to run the container hardening process and create a brand new container image, removing unnecessary files, dependencies, and vulnerabilities — no new code required! The new container will then run against the same test suite to verify its functionality.
 
