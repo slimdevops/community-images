@@ -48,7 +48,7 @@ jobs:
         with:
           registry: ghcr.io
           username: ${{ secrets.GHCR_ACTOR  }}
-          password: ${{ secrets.GITHUB_TOKEN }}
+          password: ${{ secrets.GHCR_TOKEN }}
 
       - name: Setup Dependencies
         env:
