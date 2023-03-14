@@ -14,12 +14,15 @@ generate_xray_report() {
 }
 
 TARGET_CONNECTOR="dockerhub.public"
+TARGET_NAMESPACE=$NAMESPACE
+
 if [[ $PROJECT_SOURCE == "dockerfile" ]]; then
   TARGET_CONNECTOR=$CONNECTOR_ID
+  TARGET_NAMESPACE=$SLIM_IMAGE_NS
 fi
 
 echo "X-Ray'ing Fat Image"
-generate_xray_report $TARGET_CONNECTOR $NAMESPACE $REPOSITORY $TAG
+generate_xray_report $TARGET_CONNECTOR $TARGET_NAMESPACE $REPOSITORY $TAG
 echo "X-Ray'ing Hardened Image"
-generate_xray_report $TARGET_CONNECTOR $SLIM_IMAGE_NS $REPOSITORY $PROJECT_IMAGE_TAG_SLIM
+generate_xray_report $CONNECTOR_ID $SLIM_IMAGE_NS $REPOSITORY $PROJECT_IMAGE_TAG_SLIM
 echo "PROJECT_XRAY_DONE=true" >>$GITHUB_ENV
