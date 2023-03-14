@@ -68,6 +68,12 @@ These applications are standalone containers that can run on their own. Where ne
     <th>Last Update</th>
   </tr>
 
+ <tr id="docker.io-library-redis-latest">
+    <td class="project-name"><a href="community-images/docker.io/library/redis/latest">Redis</a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4415117879"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-image">library/redis:latest</td>
+    <td class="project-last-update">2023-03-14T11:34:36.705Z</td>
+    </tr>
 </table>
 <!-- image-runner-status-table-base-image-edel -->
 
