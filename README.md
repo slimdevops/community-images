@@ -68,6 +68,12 @@ These applications are standalone containers that can run on their own. Where ne
     <th>Last Update</th>
   </tr>
 
+ <tr id="docker.io-grafana-grafana-latest-ubuntu">
+    <td class="project-name"><a href="community-images/docker.io/grafana/grafana/latest-ubuntu">Grafana</a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4415828724"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-image">grafana/grafana:latest-ubuntu</td>
+    <td class="project-last-update">2023-03-14T13:30:24.044Z</td>
+    </tr>
 </table>
 <!-- image-runner-status-table-base-image-edel -->
 

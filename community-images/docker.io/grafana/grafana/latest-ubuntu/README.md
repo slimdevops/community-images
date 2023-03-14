@@ -1,34 +1,42 @@
 
-[slim.ai](imgs/slim.ai.png)
+![Slim.AI Banner Image](/docs/images/SlimBanner_3.png)
 
 Looking to ship grafana/grafana to production in a secure way without spending hours wrestling with your Dockerfiles? 
 
-This community image example automatically hardens your application for production, reducing the size from 415 MB to 131 MB and removes 26 vulnerabilities along the way. 
+This community image example automatically hardens your application for production, reducing the size from 402 MB to 161 MB and removes 12 vulnerabilities along the way. 
 
-This action starts by building an containerized application based off of the grafana/grafana image, and then runs it against its test suite found in the project folder.
+Images labelled `Hello World` are meant to be starting points for application development. Simply replace the Hello World app code with your own and re-run the process for similar results. Standalone applications can be used as is, or reconfigured to meet your needs. 
 
-[Process Diagram](process.png)
+The process starts by building an containerized application based off of the grafana/grafana image, and then runs it against its test suite found in the project folder.
 
-Next, it uses the Slim.ai API to run the container hardening process and create a brand new container image containing fewer files, dependencies, and vulnerabilities — no new code required! The new container will then run against the same test suite to verify its functionality.
+![Process Diagram](/docs/images/HowItWorksV2.png)
+
+Next, we use Slim.AI to run the container hardening process and create a brand new container image, removing unnecessary files, dependencies, and vulnerabilities — no new code required! The new container will then run against the same test suite to verify its functionality.
 
 ![status-badge](https://img.shields.io/badge/Build-Passing-green.svg)
 
 ## Results
 
 You can see the results of the slim tests here!
+
 | Metric | Original | Hardened | Percent Change | 
 | ---| --- | --- | --- | 
-| Size | 415 MB | 131 MB | 68.00 | 
-| File Count | 10543 | 373 | 96.00 | 
-| Vulnerabilities | 55 | 29 | 47.00 | 
-| Critical Vulnerabilities | 4 | 2 | 
-| High Vulnerabilities | 18 | 5 | 
+| Size | 402 MB | 161 MB | 59.00 | 
+| File Count | 10882 | 371 | 96.00 | 
+| Vulnerabilities | 38 | 26 | 31.00 | 
+| Critical Vulnerabilities | 2 | 2 | 
+| High Vulnerabilities | 10 | 4 | 
 
 
-You can check out the [new container image](https://portal.slim.dev/home/xray/dockerhub:%2F%2Fdockerhub.public%2Ffocaloiddev%2Fgrafana:9.2.5-ubuntu.slimxx#explorer) for yourself on the Slim Platform (free registration required). 
+You can check out the [new container image](https://portal.slim.dev/home/xray/dockerhub:%2F%2Fdockerhub.public%2Fslimdevops%2Fgrafana:latest-ubuntu.slimxx#explorer) for yourself on the Slim Platform (free registration required). 
 
-Apply this process to your own container images for results like this!
+Apply this process to your own container images for similar results. [Get started](https://www.slim.ai/docs/quickstart) with a free account today.  
 
 ### Have Questions or Need Help? Join Our  Community!
 
-Interested in seeing more examples like this? Questions about integrating these actions into your own pipelines? Get in touch through our [community discord](https://discord.com/invite/uBttmfyYNB).
+Interested in seeing more examples like this? Questions about integrating these actions into your own pipelines? Get in touch through our [Slim.AI Community Discord](https://discord.com/invite/uBttmfyYNB).
+
+
+### Contribute 
+
+We're always looking for improved tests, new examples, or image requests. PRs Welcome! 
