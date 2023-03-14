@@ -43,6 +43,7 @@ jobs:
       CONNECTOR_ID: ${{ secrets.CONNECTOR_ID }}
       ACTION_RUNNER_URL: "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
       SLIM_IMAGE_REGISTRY: ${{ secrets.SLIM_IMAGE_REGISTRY }}
+      API_DOMAIN: "platform.slim.dev" #${{ secrets.API_DOMAIN }}
     steps:
       - uses: actions/checkout@v3
       - uses: docker/login-action@v2
@@ -171,14 +172,12 @@ jobs:
 
       - name: "X-Ray"
         env:
-          API_DOMAIN: ${{ secrets.API_DOMAIN }}
           ORGANIZATION_ID: ${{ secrets.ORGANIZATION_ID }}
           API_TOKEN: ${{ secrets.API_TOKEN }}
         run: " ${GITHUB_WORKSPACE}/bin/x_ray_report.sh"
 
       - name: "Vulnerability Scan"
         env:
-          API_DOMAIN: ${{ secrets.API_DOMAIN }}
           ORGANIZATION_ID: ${{ secrets.ORGANIZATION_ID }}
           API_TOKEN: ${{ secrets.API_TOKEN }}
         run: " ${GITHUB_WORKSPACE}/bin/vulnerability_report.sh"
