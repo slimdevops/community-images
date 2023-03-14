@@ -5,7 +5,6 @@ if [[ -z "$1" ]]; then
     exit 1
 fi
 jsonRequest=$(cat -)
-echo $jsonRequest
 reportResultFile="$1"
 nx=$(curl -s -H 'Content-Type: application/json' -X POST -u :${API_TOKEN} https://${API_DOMAIN}/orgs/${ORGANIZATION_ID}/engine/executions -d "${jsonRequest}")
 executionID=$(jq -r '.id' <<<"${nx}")
