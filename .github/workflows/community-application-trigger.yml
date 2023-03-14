@@ -43,7 +43,7 @@ jobs:
       CONNECTOR_ID: ${{ secrets.CONNECTOR_ID }}
       ACTION_RUNNER_URL: "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
       SLIM_IMAGE_REGISTRY: ${{ secrets.SLIM_IMAGE_REGISTRY }}
-      API_DOMAIN: "https://platform.slim.dev"
+      API_DOMAIN: "platform.slim.dev"
     steps:
       - uses: actions/checkout@v3
       - uses: docker/login-action@v2
