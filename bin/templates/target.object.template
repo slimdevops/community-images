@@ -4,7 +4,7 @@
     "type": "container.image",
     "store": {
         "type": "connector",
-        "connector": "dockerhub.public"
+        "connector": "__CONNECTOR_ID__"
     },
     "attributes": {
         "namespace": "__NAMESPACE__",
