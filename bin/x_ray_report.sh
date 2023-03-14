@@ -6,7 +6,7 @@ HELPER_DIR="$SCRIPT_DIR/helpers"
 generate_xray_report() {
     result_file_path="$PROJECT_FULL_PATH/vscan-xray-reports"
     mkdir -p $result_file_path
-    ${HELPER_DIR}/generate_report.sh "xray" "$result_file_path/xray-$2-$3-report.json" "$1" "$2" "$3" "$4"
+    ${HELPER_DIR}/generate_report.sh "xray" "$result_file_path/xray-$3-$4-report.json" "$1" "$2" "$3" "$4"
     if [[ "$?" != "0" ]]; then
         echo "X-Ray Error:"
         exit 1
