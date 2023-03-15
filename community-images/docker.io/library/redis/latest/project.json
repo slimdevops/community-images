@@ -1,0 +1,14 @@
+{
+    "name": "Redis",
+    "source": "image",
+    "test_suite": "custom",
+    "port": "6379",
+    "test_command": "chmod +x ./test.sh && ./test.sh",
+    "run_host_args": "-v $(pwd)/conf/:/usr/local/etc/redis/",
+    "run_container_args": "redis-server /usr/local/etc/redis/redis.conf",
+    "run_instrumented_as": "root",
+    "slim_cli": {
+        "stop-grace-period": "300s",
+        "tls-verify-off": "true"
+    }
+}
