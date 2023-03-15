@@ -1,0 +1,8 @@
+{
+    "name": "Prometheus",
+    "source": "image",
+    "port": "9090",
+    "run_as": "root",
+    "test_suite": "cypress",
+    "run_host_args": "-v $(pwd)/prometheus.yml:/etc/prometheus/prometheus.yml"
+}
