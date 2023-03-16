@@ -52,6 +52,48 @@ These images are examples using popular base images such as `node:latest`. They 
     <td class="project-image">library/node:latest</td>
     <td class="project-last-update">2023-03-16T09:38:37.766Z</td>
     </tr>
+ <tr id="docker.io-library-rust-latest">
+    <td class="project-name"><a href="community-images/docker.io/library/rust/latest">Rust Hello World</a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4437942752"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-image">library/rust:latest</td>
+    <td class="project-last-update">2023-03-16T14:12:40.065Z</td>
+    </tr>
+ <tr id="docker.io-library-ruby-latest">
+    <td class="project-name"><a href="community-images/docker.io/library/ruby/latest">Ruby Hello World</a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4438055918"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-image">library/ruby:latest</td>
+    <td class="project-last-update">2023-03-16T14:22:47.660Z</td>
+    </tr>
+ <tr id="docker.io-library-ruby-3.1.3">
+    <td class="project-name"><a href="community-images/docker.io/library/ruby/3.1.3">Ruby on Rails Hello World</a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4438189137"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-image">library/ruby:3.1.3</td>
+    <td class="project-last-update">2023-03-16T14:36:46.111Z</td>
+    </tr>
+ <tr id="docker.io-library-jruby-latest">
+    <td class="project-name"><a href="community-images/docker.io/library/jruby/latest">JRuby Hello World</a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4439436577"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-image">library/jruby:latest</td>
+    <td class="project-last-update">2023-03-16T16:43:07.441Z</td>
+    </tr>
+ <tr id="docker.io-library-php-latest">
+    <td class="project-name"><a href="community-images/docker.io/library/php/latest">PHP Hello World</a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4439089731"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-image">library/php:latest</td>
+    <td class="project-last-update">2023-03-16T16:05:20.642Z</td>
+    </tr>
+ <tr id="docker.io-library-python-latest">
+    <td class="project-name"><a href="community-images/docker.io/library/python/latest">Python Flask Hello World</a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4439452373"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-image">library/python:latest</td>
+    <td class="project-last-update">2023-03-16T16:46:32.376Z</td>
+    </tr>
+ <tr id="docker.io-library-python-3.10.0">
+    <td class="project-name"><a href="community-images/docker.io/library/python/3.10.0">Python Django Hello World</a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4439458829"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-image">library/python:3.10.0</td>
+    <td class="project-last-update">2023-03-16T16:47:01.526Z</td>
+    </tr>
 </table>
 
 <!-- image-runner-status-table-hello-world-edel -->

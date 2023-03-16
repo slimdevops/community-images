@@ -1,0 +1,8 @@
+{
+    "name": "Ruby Hello World",
+    "category": "hello-world",
+    "image": "docker.io/library/ruby:latest",
+    "source": "dockerfile",
+    "test_suite": "newman",
+    "port": "8080"
+}

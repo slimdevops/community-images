@@ -1,0 +1,32 @@
+{
+	"info": {
+		"_postman_id": "c1b7a70c-32d4-41bf-8ae6-87966b5941ed",
+		"name": "Rails",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://0.0.0.0:3000/api/hello-world",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://0.0.0.0:3000/api/hello-world",
+					"protocol": "http",
+					"host": [
+						"0",
+						"0",
+						"0",
+						"0"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"hello-world"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
