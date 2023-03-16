@@ -1,0 +1,18 @@
+{
+    "name": "Drupal",
+    "source": "image",
+    "test_suite": "custom",
+    "port": "80",
+    "test_command": "chmod +x ./test.sh && ./test.sh",
+    "run_host_args": "-v drupal_vol:/opt/drupal:rw",
+    "slim_cli": {
+        "stop-grace-period": "300s",
+        "include-path": [
+            "/run/lock",
+            "/opt/drupal"
+        ],
+        "include-bin": [],
+        "include-exe": [],
+        "exclude-pattern": []
+    }
+}
