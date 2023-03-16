@@ -3,7 +3,7 @@
 
 Looking to ship library/node to production in a secure way without spending hours wrestling with your Dockerfiles? 
 
-This community image example automatically hardens your application for production, reducing the size from 998 MB to 99 MB and removes 324 vulnerabilities along the way. 
+This community image example automatically hardens your application for production, reducing the size from 998 MB to 99 MB and removes 329 vulnerabilities along the way. 
 
 Images labelled `Hello World` are meant to be starting points for application development. Simply replace the Hello World app code with your own and re-run the process for similar results. Standalone applications can be used as is, or reconfigured to meet your needs. 
 
@@ -23,7 +23,7 @@ You can see the results of the slim tests here!
 | ---| --- | --- | --- | 
 | Size | 998 MB | 99 MB | 90.00 | 
 | File Count | 26894 | 148 | 99.00 | 
-| Vulnerabilities | 324 | 0 | 100.00 | 
+| Vulnerabilities | 329 | 0 | 100.00 | 
 | Critical Vulnerabilities | 13 | 0 | 
 | High Vulnerabilities | 115 | 0 | 
 
