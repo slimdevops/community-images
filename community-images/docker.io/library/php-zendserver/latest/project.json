@@ -1,0 +1,18 @@
+{
+    "name": "PHP Zend Server",
+    "source": "image",
+    "port": "10081",
+    "run_host_args": "-e ZS_ADMIN_PASSWORD=admin",
+    "test_suite": "cypress",
+    "test_suite_host_args": "--rm",
+    "slim_cli": {
+        "stop-grace-period": "300s",
+        "include-path": [
+            "/run/lock"
+        ],
+        "include-bin": [],
+        "include-exe": [],
+        "exclude-pattern": []
+    },
+    "run_instrumented_as": "root"
+}
