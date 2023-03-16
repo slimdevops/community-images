@@ -4,7 +4,16 @@ const path = require("path");
 //GLOBAL VARIABLES
 const REGISTRY = process.env['REGISTRY'];
 const NAMESPACE = process.env['NAMESPACE'];
+
 const REPOSITORY = process.env['REPOSITORY'];
+const PROJECT_TARGET_REPOSITORY = process.env['PROJECT_TARGET_REPOSITORY'];
+const PROJECT_SOURCE = process.env['PROJECT_SOURCE'];
+
+let TARGET_REPO = REPOSITORY;
+if (PROJECT_SOURCE == "dockerfile") {
+    TARGET_REPO = PROJECT_TARGET_REPOSITORY;
+}
+
 const SLIM_IMAGE_NS = process.env['SLIM_IMAGE_NS'];
 const PROJECT_IMAGE_TAG_SLIM = process.env['PROJECT_IMAGE_TAG_SLIM'];
 const TAG = process.env['TAG'];
@@ -27,10 +36,10 @@ updateProjectReadme();
 
 function updateProjectReadme() {
     const REPORT_PATH = path.join(PROJECT_FULL_PATH, `vscan-xray-reports`);
-    const fatXrayPath = path.join(REPORT_PATH, `xray-${REPOSITORY}-${TAG}-report.json`);
-    const slimXrayPath = path.join(REPORT_PATH, `xray-${REPOSITORY}-${PROJECT_IMAGE_TAG_SLIM}-report.json`);
-    const fatVulPath = path.join(REPORT_PATH, `vscan-${REPOSITORY}-${TAG}-report.json`);
-    const slimVulPath = path.join(REPORT_PATH, `vscan-${REPOSITORY}-${PROJECT_IMAGE_TAG_SLIM}-report.json`);
+    const fatXrayPath = path.join(REPORT_PATH, `xray-${TARGET_REPO}-${TAG}-report.json`);
+    const slimXrayPath = path.join(REPORT_PATH, `xray-${TARGET_REPO}-${PROJECT_IMAGE_TAG_SLIM}-report.json`);
+    const fatVulPath = path.join(REPORT_PATH, `vscan-${TARGET_REPO}-${TAG}-report.json`);
+    const slimVulPath = path.join(REPORT_PATH, `vscan-${TARGET_REPO}-${PROJECT_IMAGE_TAG_SLIM}-report.json`);
 
     const projectReadMePath = path.join(PROJECT_FULL_PATH, "README.md");
     const repoProjectTemplatePath = path.join(GITHUB_WORKSPACE, "/bin/templates/", "project.readme.template");
