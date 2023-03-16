@@ -1,13 +1,13 @@
 
 ![Slim.AI Banner Image](/docs/images/SlimBanner_3.png)
 
-Looking to ship library/node to production in a secure way without spending hours wrestling with your Dockerfiles? 
+Looking to ship library/wordpress to production in a secure way without spending hours wrestling with your Dockerfiles? 
 
-This community image example automatically hardens your application for production, reducing the size from 998 MB to 99 MB and removes 329 vulnerabilities along the way. 
+This community image example automatically hardens your application for production, reducing the size from 615 MB to 191 MB and removes 303 vulnerabilities along the way. 
 
 Images labelled `Hello World` are meant to be starting points for application development. Simply replace the Hello World app code with your own and re-run the process for similar results. Standalone applications can be used as is, or reconfigured to meet your needs. 
 
-The process starts by building an containerized application based off of the library/node image, and then runs it against its test suite found in the project folder.
+The process starts by building an containerized application based off of the library/wordpress image, and then runs it against its test suite found in the project folder.
 
 ![Process Diagram](/docs/images/HowItWorksV2.png)
 
@@ -21,14 +21,14 @@ You can see the results of the slim tests here!
 
 | Metric | Original | Hardened | Percent Change | 
 | ---| --- | --- | --- | 
-| Size | 998 MB | 99 MB | 90.00 | 
-| File Count | 26894 | 148 | 99.00 | 
-| Vulnerabilities | 329 | 0 | 100.00 | 
-| Critical Vulnerabilities | 13 | 0 | 
-| High Vulnerabilities | 115 | 0 | 
+| Size | 615 MB | 191 MB | 68.00 | 
+| File Count | 14917 | 3506 | 76.00 | 
+| Vulnerabilities | 303 | 0 | 100.00 | 
+| Critical Vulnerabilities | 12 | 0 | 
+| High Vulnerabilities | 107 | 0 | 
 
 
-You can check out the [new container image](https://portal.slim.dev/home/xray/dockerhub:%2F%2Fdockerhub.public%2Fslimdevops%2Fnode:latest.slimxx#explorer) for yourself on the Slim Platform (free registration required). 
+You can check out the [new container image](https://portal.slim.dev/home/xray/dockerhub:%2F%2Fdockerhub.public%2Fslimdevops%2Fwordpress:latest.slimxx#explorer) for yourself on the Slim Platform (free registration required). 
 
 Apply this process to your own container images for similar results. [Get started](https://www.slim.ai/docs/quickstart) with a free account today.  
 

@@ -48,9 +48,9 @@ These images are examples using popular base images such as `node:latest`. They 
 
  <tr id="docker.io-library-node-latest">
     <td class="project-name"><a href="community-images/docker.io/library/node/latest">NodeJS Hello World</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4414336538"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4435536599"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
     <td class="project-image">library/node:latest</td>
-    <td class="project-last-update">2023-03-14T09:52:45.165Z</td>
+    <td class="project-last-update">2023-03-16T09:38:37.766Z</td>
     </tr>
 </table>
 
@@ -67,8 +67,7 @@ These applications are standalone containers that can run on their own. Where ne
     <th>Image</th>
     <th>Last Update</th>
   </tr>
-
-
+  
  <tr id="docker.io-library-redis-latest">
     <td class="project-name"><a href="community-images/docker.io/library/redis/latest">Redis</a></td>
     <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4415117879"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
@@ -82,18 +81,56 @@ These applications are standalone containers that can run on their own. Where ne
     <td class="project-image">grafana/grafana:latest-ubuntu</td>
     <td class="project-last-update">2023-03-14T13:30:24.044Z</td>
     </tr>
+
+ <tr id="docker.io-prom-prometheus-latest">
+    <td class="project-name"><a href="community-images/docker.io/prom/prometheus/latest">Prometheus</a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4424198217"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-image">prom/prometheus:latest</td>
+    <td class="project-last-update">2023-03-15T08:27:34.556Z</td>
+    </tr>
+
+ <tr id="docker.io-library-drupal-9.4.9-php8.1">
+    <td class="project-name"><a href="community-images/docker.io/library/drupal/9.4.9-php8.1">Drupal</a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4424022658"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-image">library/drupal:9.4.9-php8.1</td>
+    <td class="project-last-update">2023-03-15T08:49:44.896Z</td>
+    </tr>
+
+ <tr id="docker.io-library-wordpress-latest">
+    <td class="project-name"><a href="community-images/docker.io/library/wordpress/latest">Wordpress</a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4424274525"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-image">library/wordpress:latest</td>
+    <td class="project-last-update">2023-03-15T08:40:55.058Z</td>
+    </tr>
+
+ <tr id="docker.io-library-maven-latest">
+    <td class="project-name"><a href="community-images/docker.io/library/maven/latest">Maven Build Jar</a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4424432376"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-image">library/maven:latest</td>
+    <td class="project-last-update">2023-03-15T08:58:23.623Z</td>
+    </tr>
+
+ <tr id="docker.io-library-gradle-latest">
+    <td class="project-name"><a href="community-images/docker.io/library/gradle/latest">Gradle Build Jar</a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4425206212"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-image">library/gradle:latest</td>
+    <td class="project-last-update">2023-03-15T10:27:06.746Z</td>
+ </tr>
+ 
  <tr id="docker.io-jenkins-jenkins-latest">
     <td class="project-name"><a href="community-images/docker.io/jenkins/jenkins/latest">Jenkins</a></td>
     <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4425578024"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
     <td class="project-image">jenkins/jenkins:latest</td>
     <td class="project-last-update">2023-03-15T11:14:11.236Z</td>
     </tr>
+    
  <tr id="docker.io-library-php-zendserver-latest">
     <td class="project-name"><a href="community-images/docker.io/library/php-zendserver/latest">PHP Zend Server</a></td>
     <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4435610171"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
     <td class="project-image">library/php-zendserver:latest</td>
     <td class="project-last-update">2023-03-16T10:02:35.088Z</td>
     </tr>
+    
 </table>
 <!-- image-runner-status-table-base-image-edel -->
 
