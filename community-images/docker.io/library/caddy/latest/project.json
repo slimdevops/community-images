@@ -1,7 +1,7 @@
 {
     "name": "Caddy Hello World",
     "category": "hello-world",
-    "run_host_args": "--memory=2G --cpus=2 -v $(pwd)/caddyfile:/etc/caddy/Caddyfile -v $(pwd)/static_site:/var/www/html",
+    "run_host_args": "--memory=512M --cpus=1 -v $(pwd)/caddyfile:/etc/caddy/Caddyfile -v $(pwd)/static_site:/var/www/html",
     "image": "docker.io/library/caddy:latest",
     "source": "image",
     "test_suite": "newman",
