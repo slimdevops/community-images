@@ -1,0 +1,8 @@
+{
+    "name": "Amazon Corretto Hello World",
+    "category": "hello-world",
+    "source": "dockerfile",
+    "test_suite": "newman",
+    "port": "8080",
+    "image": "registry.hub.docker.com/library/amazoncorretto:latest"
+}
