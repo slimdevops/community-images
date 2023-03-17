@@ -1,0 +1,8 @@
+{
+    "name": "Tomcat Hello World",
+    "image": "docker.io/library/tomcat:latest",
+    "category": "hello-world",
+    "source": "dockerfile",
+    "test_suite": "newman",
+    "port": "8080"
+}
