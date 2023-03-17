@@ -1,10 +1,11 @@
 #!/usr/bin/env bash
 $HOOK_EXEC before-cleanup $STAGE
+echo "Starting Cleanup"
 if [[ $STAGE == "INSTRUMENT" ]]; then
     echo "Instrumented Step -- Gracetime set to 300 Seconds"
     docker stop -t 300 $PROJECT_CONTAINER_NAME
 else
-    docker stop $PROJECT_CONTAINER_NAME
+    docker stop -t 60 $PROJECT_CONTAINER_NAME
 fi
 
 docker wait $PROJECT_CONTAINER_NAME

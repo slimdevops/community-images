@@ -1,11 +1,18 @@
 {
     "name": "Caddy Hello World",
     "category": "hello-world",
-    "run_host_args": "--memory=512M --cpus=1 -v $(pwd)/caddyfile:/etc/caddy/Caddyfile -v $(pwd)/static_site:/var/www/html",
+    "run_host_args": "-v $(pwd)/caddyfile:/etc/caddy/Caddyfile -v $(pwd)/static_site:/var/www/html",
     "image": "docker.io/library/caddy:latest",
     "source": "image",
     "test_suite": "newman",
     "port": "443",
     "run_instrumented_as": "root",
-    "clean_docker": "true"
+    "clean_docker": "true",
+    "slim_cli": {
+        "stop-grace-period": "300s",
+        "include-path": [],
+        "include-bin": [],
+        "include-exe": [],
+        "exclude-pattern": []
+    }
 }
