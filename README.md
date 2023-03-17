@@ -100,6 +100,12 @@ These images are examples using popular base images such as `node:latest`. They 
     <td class="project-image">library/mono:latest</td>
     <td class="project-last-update">2023-03-17T12:07:14.094Z</td>
     </tr>
+ <tr id="docker.io-library-openjdk-latest">
+    <td class="project-name"><a href="community-images/docker.io/library/openjdk/latest">OpenJDK Hello World</a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4447292964"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-image">library/openjdk:latest</td>
+    <td class="project-last-update">2023-03-17T12:09:54.882Z</td>
+    </tr>
 </table>
 
 <!-- image-runner-status-table-hello-world-edel -->
