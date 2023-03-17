@@ -118,12 +118,6 @@ These images are examples using popular base images such as `node:latest`. They 
     <td class="project-image">library/jetty:latest</td>
     <td class="project-last-update">2023-03-17T11:03:03.868Z</td>
     </tr>
- <tr id="docker.io-library-caddy-latest">
-    <td class="project-name"><a href="community-images/docker.io/library/caddy/latest">Caddy Hello World</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4446895891"><img src="https://img.shields.io/badge/Build-Failing-red.svg" /></a></td>
-    <td class="project-image">library/caddy:latest</td>
-    <td class="project-last-update">2023-03-17T11:11:25.802Z</td>
-    </tr>
 </table>
 
 <!-- image-runner-status-table-hello-world-edel -->
