@@ -3,24 +3,27 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
-class HelloWorld
+class Program
 {
-    static async void Main(string[] args)
+    static void Main(string[] args)
     {
         var listener = new HttpListener();
         listener.Prefixes.Add("http://0.0.0.0:8080/");
         listener.Start();
         Console.WriteLine("Listening on http://0.0.0.0:8080/");
-        
-        while (true)
+
+        Task.Run(async () =>
         {
-            var context = await listener.GetContextAsync();
-            var response = context.Response;
-            var buffer = Encoding.UTF8.GetBytes("Hello, World!");
-            response.ContentLength64 = buffer.Length;
-            response.ContentType = "text/plain";
-            await response.OutputStream.WriteAsync(buffer, 0, buffer.Length);
-            response.Close();
-        }
+            while (true)
+            {
+                var context = await listener.GetContextAsync();
+                var response = context.Response;
+                var buffer = Encoding.UTF8.GetBytes("Hello, World!");
+                response.ContentLength64 = buffer.Length;
+                response.ContentType = "text/plain";
+                await response.OutputStream.WriteAsync(buffer, 0, buffer.Length);
+                response.Close();
+            }
+        }).Wait();
     }
 }
