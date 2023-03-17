@@ -106,6 +106,12 @@ These images are examples using popular base images such as `node:latest`. They 
     <td class="project-image">library/erlang:latest</td>
     <td class="project-last-update">2023-03-17T07:40:34.587Z</td>
     </tr>
+ <tr id="docker.io-library-groovy-latest">
+    <td class="project-name"><a href="community-images/docker.io/library/groovy/latest">Groovy Grails Hello World</a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4445238291"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-image">library/groovy:latest</td>
+    <td class="project-last-update">2023-03-17T07:50:02.228Z</td>
+    </tr>
 </table>
 
 <!-- image-runner-status-table-hello-world-edel -->
