@@ -94,6 +94,12 @@ These images are examples using popular base images such as `node:latest`. They 
     <td class="project-image">library/python:3.10.0</td>
     <td class="project-last-update">2023-03-16T16:47:01.526Z</td>
     </tr>
+ <tr id="docker.io-library-dart-latest">
+    <td class="project-name"><a href="community-images/docker.io/library/dart/latest">Dart Hello World</a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4445214588"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-image">library/dart:latest</td>
+    <td class="project-last-update">2023-03-17T07:35:07.445Z</td>
+    </tr>
 </table>
 
 <!-- image-runner-status-table-hello-world-edel -->
