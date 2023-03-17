@@ -4,7 +4,5 @@
     "category": "hello-world",
     "source": "dockerfile",
     "test_suite": "newman",
-    "foreground": true,
-    "port": "9000",
-    "run_host_args": "-v $(pwd)/project:/opt/app/project"
+    "port": "8080"
 }

@@ -27,15 +27,13 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:9000/hello.aspx",
+					"raw": "http://localhost:8080/",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "9000",
-					"path": [
-						"hello.aspx"
-					]
+					"port": "8080",
+					"path": []
 				}
 			},
 			"response": []
