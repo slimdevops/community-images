@@ -1,0 +1,4 @@
+sample.localhost {
+  root * /var/www/html
+  file_server
+}

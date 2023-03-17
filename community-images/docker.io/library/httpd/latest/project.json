@@ -1,0 +1,17 @@
+{
+    "name": "HTTPD Hello World",
+    "category": "hello-world",
+    "source": "dockerfile",
+    "test_suite": "newman",
+    "port": "80",
+    "run_instrumented_as": "root",
+    "slim_cli": {
+        "stop-grace-period": "300s",
+        "include-path": [
+            "/usr/local/apache2/logs/"
+        ],
+        "include-bin": [],
+        "include-exe": [],
+        "exclude-pattern": []
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Caddy Hello World",
+    "category": "hello-world",
+    "run_host_args": "-v $(pwd)/caddyfile:/etc/caddy/Caddyfile -v $(pwd)/static_site:/var/www/html",
+    "image": "docker.io/library/caddy:latest",
+    "source": "image",
+    "test_suite": "newman",
+    "port": "443",
+    "run_instrumented_as": "root",
+    "clean_docker": "true"
+}
