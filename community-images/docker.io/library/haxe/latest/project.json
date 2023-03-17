@@ -1,0 +1,8 @@
+{
+    "name": "Haxe Hello World",
+    "category": "hello-world",
+    "image": "docker.io/library/haxe:latest",
+    "source": "dockerfile",
+    "test_suite": "newman",
+    "port": "8080"
+}

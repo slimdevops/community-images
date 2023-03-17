@@ -94,6 +94,54 @@ These images are examples using popular base images such as `node:latest`. They 
     <td class="project-image">library/python:3.10.0</td>
     <td class="project-last-update">2023-03-16T17:48:26.070Z</td>
     </tr>
+ <tr id="docker.io-library-dart-latest">
+    <td class="project-name"><a href="community-images/docker.io/library/dart/latest">Dart Hello World</a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4445214588"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-image">library/dart:latest</td>
+    <td class="project-last-update">2023-03-17T07:35:07.445Z</td>
+    </tr>
+ <tr id="docker.io-library-erlang-latest">
+    <td class="project-name"><a href="community-images/docker.io/library/erlang/latest">Erlang Hello World</a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4445230822"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-image">library/erlang:latest</td>
+    <td class="project-last-update">2023-03-17T07:40:34.587Z</td>
+    </tr>
+ <tr id="docker.io-library-groovy-latest">
+    <td class="project-name"><a href="community-images/docker.io/library/groovy/latest">Groovy Grails Hello World</a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4445238291"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-image">library/groovy:latest</td>
+    <td class="project-last-update">2023-03-17T07:50:02.228Z</td>
+    </tr>
+ <tr id="docker.io-library-elixir-latest">
+    <td class="project-name"><a href="community-images/docker.io/library/elixir/latest">Elixir Hello World</a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4445299488"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-image">library/elixir:latest</td>
+    <td class="project-last-update">2023-03-17T07:50:59.906Z</td>
+    </tr>
+ <tr id="docker.io-library-haxe-latest">
+    <td class="project-name"><a href="community-images/docker.io/library/haxe/latest">Haxe Hello World</a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4445354319"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-image">library/haxe:latest</td>
+    <td class="project-last-update">2023-03-17T07:58:05.933Z</td>
+    </tr>
+ <tr id="docker.io-library-julia-latest">
+    <td class="project-name"><a href="community-images/docker.io/library/julia/latest">Julia Hello World</a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4445357684"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-image">library/julia:latest</td>
+    <td class="project-last-update">2023-03-17T08:01:11.787Z</td>
+    </tr>
+ <tr id="docker.io-library-swift-latest">
+    <td class="project-name"><a href="community-images/docker.io/library/swift/latest">Swift Hello World</a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4445360902"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-image">library/swift:latest</td>
+    <td class="project-last-update">2023-03-17T08:03:14.920Z</td>
+    </tr>
+ <tr id="docker.io-library-haskell-latest">
+    <td class="project-name"><a href="community-images/docker.io/library/haskell/latest">Haskell Hello World</a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4445351851"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-image">library/haskell:latest</td>
+    <td class="project-last-update">2023-03-17T08:09:14.175Z</td>
+    </tr>
 </table>
 
 <!-- image-runner-status-table-hello-world-edel -->
