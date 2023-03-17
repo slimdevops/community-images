@@ -1,0 +1,3 @@
+# build.hxml
+-main Main
+-neko Main.n

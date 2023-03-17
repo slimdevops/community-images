@@ -1,0 +1,6 @@
+2022-12-29 02:39:35 jdbc[7]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USER" not found; SQL statement:
+select count(*) as y0_ from user this_ limit ? [42102-200]
+2022-12-29 02:39:47 jdbc[7]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USER" not found; SQL statement:
+select count(*) as y0_ from user this_ limit ? [42102-200]
