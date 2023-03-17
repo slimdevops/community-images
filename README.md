@@ -100,6 +100,12 @@ These images are examples using popular base images such as `node:latest`. They 
     <td class="project-image">library/golang:latest</td>
     <td class="project-last-update">2023-03-17T11:51:49.932Z</td>
     </tr>
+ <tr id="docker.io-library-perl-latest">
+    <td class="project-name"><a href="community-images/docker.io/library/perl/latest">Perl Hello World</a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4447152914"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-image">library/perl:latest</td>
+    <td class="project-last-update">2023-03-17T11:52:16.058Z</td>
+    </tr>
 </table>
 
 <!-- image-runner-status-table-hello-world-edel -->
