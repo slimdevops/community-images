@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 class HelloWorld
 {
-    static async Task Main(string[] args)
+    static void Main(string[] args)
     {
         var listener = new HttpListener();
         listener.Prefixes.Add("http://0.0.0.0:8080/");
