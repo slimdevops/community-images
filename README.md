@@ -106,6 +106,12 @@ These images are examples using popular base images such as `node:latest`. They 
     <td class="project-image">library/perl:latest</td>
     <td class="project-last-update">2023-03-17T11:52:16.058Z</td>
     </tr>
+ <tr id="docker.io-library-clojure-latest">
+    <td class="project-name"><a href="community-images/docker.io/library/clojure/latest">Clojure Hello World</a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4447148183"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-image">library/clojure:latest</td>
+    <td class="project-last-update">2023-03-17T11:52:42.158Z</td>
+    </tr>
 </table>
 
 <!-- image-runner-status-table-hello-world-edel -->
