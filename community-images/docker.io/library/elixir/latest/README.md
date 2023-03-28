@@ -3,7 +3,7 @@
 
 Looking to ship library/elixir to production in a secure way without spending hours wrestling with your Dockerfiles? 
 
-This community image example automatically hardens your application for production, reducing the size from 1.5 GB to 72 MB and removes 343 vulnerabilities along the way. 
+This community image example automatically hardens your application for production, reducing the size from 1.5 GB to 84 MB and removes 332 vulnerabilities along the way. 
 
 Images labelled `Hello World` are meant to be starting points for application development. Simply replace the Hello World app code with your own and re-run the process for similar results. Standalone applications can be used as is, or reconfigured to meet your needs. 
 
@@ -21,11 +21,11 @@ You can see the results of the slim tests here!
 
 | Metric | Original | Hardened | Percent Change | 
 | ---| --- | --- | --- | 
-| Size | 1.5 GB | 72 MB | 95.00 | 
-| File Count | 39553 | 821 | 97.00 | 
-| Vulnerabilities | 343 | 0 | 100.00 | 
-| Critical Vulnerabilities | 14 | 0 | 
-| High Vulnerabilities | 122 | 0 | 
+| Size | 1.5 GB | 84 MB | 94.00 | 
+| File Count | 39552 | 1331 | 96.00 | 
+| Vulnerabilities | 350 | 18 | 94.00 | 
+| Critical Vulnerabilities | 13 | 1 | 
+| High Vulnerabilities | 126 | 8 | 
 
 
 You can check out the [new container image](https://portal.slim.dev/home/xray/dockerhub:%2F%2Fdockerhub.public%2Fslimdevops%2Felixir:latest.slimxx#explorer) for yourself on the Slim Platform (free registration required). 
