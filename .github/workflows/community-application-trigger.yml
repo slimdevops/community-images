@@ -44,6 +44,8 @@ jobs:
       ACTION_RUNNER_URL: "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
       SLIM_IMAGE_REGISTRY: ${{ secrets.SLIM_IMAGE_REGISTRY }}
       API_DOMAIN: "platform.slim.dev" #${{ secrets.API_DOMAIN }}
+      IMAGE_OS: ${{ github.event.inputs.os }}
+      IMAGE_ARCH: ${{ github.event.inputs.arch }}
     steps:
       - uses: actions/checkout@v3
       - uses: docker/login-action@v2

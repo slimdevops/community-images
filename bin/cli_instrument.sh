@@ -28,6 +28,7 @@ fi
 echo "Additional Args: $extraArgs"
 
 log_output=$(slim instrument \
+  --platform=$IMAGE_OS/$IMAGE_ARCH \
   --target-image-connector $TARGET_CONNECTOR \
   --instrumented-image-connector $CONNECTOR_ID \
   --instrumented-image $PROJECT_IMAGE_INSTRUMENTED \
