@@ -186,9 +186,9 @@ These images are examples using popular base images such as `node:latest`. They 
     </tr>
  <tr id="docker.io-library-nginx-latest">
     <td class="project-name"><a href="community-images/docker.io/library/nginx/latest">NGINX Hello World</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4446773261"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4541117199"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
     <td class="project-image">library/nginx:latest</td>
-    <td class="project-last-update">2023-03-17T10:59:50.128Z</td>
+    <td class="project-last-update">2023-03-28T08:55:00.063Z</td>
     </tr>
  <tr id="docker.io-library-httpd-latest">
     <td class="project-name"><a href="community-images/docker.io/library/httpd/latest">HTTPD Hello World</a></td>
