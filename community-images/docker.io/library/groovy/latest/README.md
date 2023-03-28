@@ -3,7 +3,7 @@
 
 Looking to ship library/groovy to production in a secure way without spending hours wrestling with your Dockerfiles? 
 
-This community image example automatically hardens your application for production, reducing the size from 1.7 GB to 256 MB and removes 56 vulnerabilities along the way. 
+This community image example automatically hardens your application for production, reducing the size from 1.7 GB to 268 MB and removes 56 vulnerabilities along the way. 
 
 Images labelled `Hello World` are meant to be starting points for application development. Simply replace the Hello World app code with your own and re-run the process for similar results. Standalone applications can be used as is, or reconfigured to meet your needs. 
 
@@ -21,11 +21,11 @@ You can see the results of the slim tests here!
 
 | Metric | Original | Hardened | Percent Change | 
 | ---| --- | --- | --- | 
-| Size | 1.7 GB | 256 MB | 85.00 | 
-| File Count | 9735 | 168 | 98.00 | 
-| Vulnerabilities | 79 | 23 | 70.00 | 
+| Size | 1.7 GB | 268 MB | 84.00 | 
+| File Count | 9748 | 567 | 94.00 | 
+| Vulnerabilities | 81 | 25 | 69.00 | 
 | Critical Vulnerabilities | 11 | 6 | 
-| High Vulnerabilities | 40 | 10 | 
+| High Vulnerabilities | 41 | 11 | 
 
 
 You can check out the [new container image](https://portal.slim.dev/home/xray/dockerhub:%2F%2Fdockerhub.public%2Fslimdevops%2Fgroovy:latest.slimxx#explorer) for yourself on the Slim Platform (free registration required). 
