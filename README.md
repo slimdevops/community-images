@@ -48,165 +48,165 @@ These images are examples using popular base images such as `node:latest`. They 
 
  <tr id="docker.io-library-node-latest">
     <td class="project-name"><a href="community-images/docker.io/library/node/latest">NodeJS Hello World</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4435536599"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4541118870"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
     <td class="project-image">library/node:latest</td>
-    <td class="project-last-update">2023-03-16T09:38:37.766Z</td>
+    <td class="project-last-update">2023-03-28T09:09:31.955Z</td>
     </tr>
  <tr id="docker.io-library-rust-latest">
     <td class="project-name"><a href="community-images/docker.io/library/rust/latest">Rust Hello World</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4440020286"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4541118925"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
     <td class="project-image">library/rust:latest</td>
-    <td class="project-last-update">2023-03-16T17:46:45.900Z</td>
+    <td class="project-last-update">2023-03-28T09:28:33.076Z</td>
     </tr>
  <tr id="docker.io-library-ruby-latest">
     <td class="project-name"><a href="community-images/docker.io/library/ruby/latest">Ruby Hello World</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4440023678"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4541118491"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
     <td class="project-image">library/ruby:latest</td>
-    <td class="project-last-update">2023-03-16T17:45:40.359Z</td>
+    <td class="project-last-update">2023-03-28T09:30:25.976Z</td>
     </tr>
  <tr id="docker.io-library-ruby-3.1.3">
     <td class="project-name"><a href="community-images/docker.io/library/ruby/3.1.3">Ruby on Rails Hello World</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4440026025"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4541118497"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
     <td class="project-image">library/ruby:3.1.3</td>
-    <td class="project-last-update">2023-03-16T17:47:59.063Z</td>
+    <td class="project-last-update">2023-03-28T08:58:05.388Z</td>
     </tr>
  <tr id="docker.io-library-jruby-latest">
     <td class="project-name"><a href="community-images/docker.io/library/jruby/latest">JRuby Hello World</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4440028031"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4541117096"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
     <td class="project-image">library/jruby:latest</td>
-    <td class="project-last-update">2023-03-16T17:46:13.787Z</td>
+    <td class="project-last-update">2023-03-28T08:57:17.734Z</td>
     </tr>
  <tr id="docker.io-library-php-latest">
     <td class="project-name"><a href="community-images/docker.io/library/php/latest">PHP Hello World</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4440114352"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4541117218"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
     <td class="project-image">library/php:latest</td>
-    <td class="project-last-update">2023-03-16T17:57:47.809Z</td>
+    <td class="project-last-update">2023-03-28T09:49:18.882Z</td>
     </tr>
  <tr id="docker.io-library-python-latest">
     <td class="project-name"><a href="community-images/docker.io/library/python/latest">Python Flask Hello World</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4440032330"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4541118318"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
     <td class="project-image">library/python:latest</td>
-    <td class="project-last-update">2023-03-16T17:48:12.407Z</td>
+    <td class="project-last-update">2023-03-28T09:00:07.091Z</td>
     </tr>
  <tr id="docker.io-library-python-3.10.0">
     <td class="project-name"><a href="community-images/docker.io/library/python/3.10.0">Python Django Hello World</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4440034730"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4541117094"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
     <td class="project-image">library/python:3.10.0</td>
-    <td class="project-last-update">2023-03-16T17:48:26.070Z</td>
+    <td class="project-last-update">2023-03-28T08:57:28.153Z</td>
     </tr>
  <tr id="docker.io-library-dart-latest">
     <td class="project-name"><a href="community-images/docker.io/library/dart/latest">Dart Hello World</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4445214588"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4541118539"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
     <td class="project-image">library/dart:latest</td>
-    <td class="project-last-update">2023-03-17T07:35:07.445Z</td>
+    <td class="project-last-update">2023-03-28T09:01:00.383Z</td>
     </tr>
  <tr id="docker.io-library-erlang-latest">
     <td class="project-name"><a href="community-images/docker.io/library/erlang/latest">Erlang Hello World</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4445230822"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4541118688"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
     <td class="project-image">library/erlang:latest</td>
-    <td class="project-last-update">2023-03-17T07:40:34.587Z</td>
+    <td class="project-last-update">2023-03-28T09:05:11.135Z</td>
     </tr>
  <tr id="docker.io-library-groovy-latest">
     <td class="project-name"><a href="community-images/docker.io/library/groovy/latest">Groovy Grails Hello World</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4445238291"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4541118659"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
     <td class="project-image">library/groovy:latest</td>
-    <td class="project-last-update">2023-03-17T07:50:02.228Z</td>
+    <td class="project-last-update">2023-03-28T09:13:10.831Z</td>
     </tr>
  <tr id="docker.io-library-elixir-latest">
     <td class="project-name"><a href="community-images/docker.io/library/elixir/latest">Elixir Hello World</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4445299488"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4541117292"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
     <td class="project-image">library/elixir:latest</td>
-    <td class="project-last-update">2023-03-17T07:50:59.906Z</td>
+    <td class="project-last-update">2023-03-28T08:58:19.498Z</td>
     </tr>
  <tr id="docker.io-library-haxe-latest">
     <td class="project-name"><a href="community-images/docker.io/library/haxe/latest">Haxe Hello World</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4445354319"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4541118304"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
     <td class="project-image">library/haxe:latest</td>
-    <td class="project-last-update">2023-03-17T07:58:05.933Z</td>
+    <td class="project-last-update">2023-03-28T08:56:04.686Z</td>
     </tr>
  <tr id="docker.io-library-julia-latest">
     <td class="project-name"><a href="community-images/docker.io/library/julia/latest">Julia Hello World</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4445357684"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4541118535"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
     <td class="project-image">library/julia:latest</td>
-    <td class="project-last-update">2023-03-17T08:01:11.787Z</td>
+    <td class="project-last-update">2023-03-28T09:05:37.309Z</td>
     </tr>
  <tr id="docker.io-library-swift-latest">
     <td class="project-name"><a href="community-images/docker.io/library/swift/latest">Swift Hello World</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4445360902"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4541118529"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
     <td class="project-image">library/swift:latest</td>
-    <td class="project-last-update">2023-03-17T08:03:14.920Z</td>
+    <td class="project-last-update">2023-03-28T09:42:50.239Z</td>
     </tr>
  <tr id="docker.io-library-haskell-latest">
     <td class="project-name"><a href="community-images/docker.io/library/haskell/latest">Haskell Hello World</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4445351851"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4541118596"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
     <td class="project-image">library/haskell:latest</td>
-    <td class="project-last-update">2023-03-17T08:09:14.175Z</td>
+    <td class="project-last-update">2023-03-28T09:11:40.850Z</td>
     </tr>
  <tr id="docker.io-library-golang-latest">
     <td class="project-name"><a href="community-images/docker.io/library/golang/latest">Golang Hello World</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4447150216"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4541118530"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
     <td class="project-image">library/golang:latest</td>
-    <td class="project-last-update">2023-03-17T11:51:49.932Z</td>
+    <td class="project-last-update">2023-03-28T08:58:08.782Z</td>
     </tr>
  <tr id="docker.io-library-perl-latest">
     <td class="project-name"><a href="community-images/docker.io/library/perl/latest">Perl Hello World</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4447152914"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4541117750"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
     <td class="project-image">library/perl:latest</td>
-    <td class="project-last-update">2023-03-17T11:52:16.058Z</td>
+    <td class="project-last-update">2023-03-28T08:57:36.322Z</td>
     </tr>
  <tr id="docker.io-library-clojure-latest">
     <td class="project-name"><a href="community-images/docker.io/library/clojure/latest">Clojure Hello World</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4447148183"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4541118496"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
     <td class="project-image">library/clojure:latest</td>
-    <td class="project-last-update">2023-03-17T11:52:42.158Z</td>
+    <td class="project-last-update">2023-03-28T08:56:57.157Z</td>
     </tr>
  <tr id="docker.io-library-pypy-latest">
     <td class="project-name"><a href="community-images/docker.io/library/pypy/latest">PyPy & FastAPI Hello World</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4447157331"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4541119147"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
     <td class="project-image">library/pypy:latest</td>
-    <td class="project-last-update">2023-03-17T11:53:12.784Z</td>
+    <td class="project-last-update">2023-03-28T09:08:03.158Z</td>
     </tr>
  <tr id="docker.io-library-mono-latest">
     <td class="project-name"><a href="community-images/docker.io/library/mono/latest">Mono Hello World</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4448012790"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4541118922"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
     <td class="project-image">library/mono:latest</td>
-    <td class="project-last-update">2023-03-17T13:34:50.902Z</td>
+    <td class="project-last-update">2023-03-28T09:06:24.660Z</td>
     </tr>
  <tr id="docker.io-library-openjdk-latest">
     <td class="project-name"><a href="community-images/docker.io/library/openjdk/latest">OpenJDK Hello World</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4447292964"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4541118569"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
     <td class="project-image">library/openjdk:latest</td>
-    <td class="project-last-update">2023-03-17T12:09:54.882Z</td>
+    <td class="project-last-update">2023-03-28T09:05:05.858Z</td>
     </tr>
  <tr id="docker.io-library-amazoncorretto-latest">
     <td class="project-name"><a href="community-images/docker.io/library/amazoncorretto/latest">Amazon Corretto Hello World</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4447302294"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4541117526"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
     <td class="project-image">library/amazoncorretto:latest</td>
-    <td class="project-last-update">2023-03-17T12:10:52.043Z</td>
+    <td class="project-last-update">2023-03-28T08:56:16.537Z</td>
     </tr>
  <tr id="docker.io-library-nginx-latest">
     <td class="project-name"><a href="community-images/docker.io/library/nginx/latest">NGINX Hello World</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4446773261"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4541117199"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
     <td class="project-image">library/nginx:latest</td>
-    <td class="project-last-update">2023-03-17T10:59:50.128Z</td>
+    <td class="project-last-update">2023-03-28T08:55:00.063Z</td>
     </tr>
  <tr id="docker.io-library-httpd-latest">
     <td class="project-name"><a href="community-images/docker.io/library/httpd/latest">HTTPD Hello World</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4446775988"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4541118323"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
     <td class="project-image">library/httpd:latest</td>
-    <td class="project-last-update">2023-03-17T11:00:23.776Z</td>
+    <td class="project-last-update">2023-03-28T08:55:33.758Z</td>
     </tr>
  <tr id="docker.io-library-tomcat-latest">
     <td class="project-name"><a href="community-images/docker.io/library/tomcat/latest">Tomcat Hello World</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4446769217"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4541119374"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
     <td class="project-image">library/tomcat:latest</td>
-    <td class="project-last-update">2023-03-17T11:01:29.636Z</td>
+    <td class="project-last-update">2023-03-28T09:07:09.441Z</td>
     </tr>
  <tr id="docker.io-library-jetty-latest">
     <td class="project-name"><a href="community-images/docker.io/library/jetty/latest">Jetty Hello World</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4446786088"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4541117209"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
     <td class="project-image">library/jetty:latest</td>
-    <td class="project-last-update">2023-03-17T11:03:03.868Z</td>
+    <td class="project-last-update">2023-03-28T08:57:26.293Z</td>
     </tr>
 </table>
 
@@ -226,51 +226,51 @@ These applications are standalone containers that can run on their own. Where ne
   
  <tr id="docker.io-library-redis-latest">
     <td class="project-name"><a href="community-images/docker.io/library/redis/latest">Redis</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4415117879"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4541117626"><img src="https://img.shields.io/badge/Build-Failing-red.svg" /></a></td>
     <td class="project-image">library/redis:latest</td>
-    <td class="project-last-update">2023-03-14T11:34:36.705Z</td>
+    <td class="project-last-update">2023-03-28T09:04:53.143Z</td>
     </tr>
 
  <tr id="docker.io-grafana-grafana-latest-ubuntu">
     <td class="project-name"><a href="community-images/docker.io/grafana/grafana/latest-ubuntu">Grafana</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4415828724"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4541119370"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
     <td class="project-image">grafana/grafana:latest-ubuntu</td>
-    <td class="project-last-update">2023-03-14T13:30:24.044Z</td>
+    <td class="project-last-update">2023-03-28T09:46:30.694Z</td>
     </tr>
 
  <tr id="docker.io-prom-prometheus-latest">
     <td class="project-name"><a href="community-images/docker.io/prom/prometheus/latest">Prometheus</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4424198217"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4541118546"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
     <td class="project-image">prom/prometheus:latest</td>
-    <td class="project-last-update">2023-03-15T08:27:34.556Z</td>
+    <td class="project-last-update">2023-03-28T08:59:45.232Z</td>
     </tr>
 
  <tr id="docker.io-library-drupal-9.4.9-php8.1">
     <td class="project-name"><a href="community-images/docker.io/library/drupal/9.4.9-php8.1">Drupal</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4424022658"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4541117408"><img src="https://img.shields.io/badge/Build-Failing-red.svg" /></a></td>
     <td class="project-image">library/drupal:9.4.9-php8.1</td>
-    <td class="project-last-update">2023-03-15T08:49:44.896Z</td>
+    <td class="project-last-update">2023-03-28T09:29:05.496Z</td>
     </tr>
 
  <tr id="docker.io-library-wordpress-latest">
     <td class="project-name"><a href="community-images/docker.io/library/wordpress/latest">Wordpress</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4424274525"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4541118135"><img src="https://img.shields.io/badge/Build-Failing-red.svg" /></a></td>
     <td class="project-image">library/wordpress:latest</td>
-    <td class="project-last-update">2023-03-15T08:40:55.058Z</td>
+    <td class="project-last-update">2023-03-28T08:56:14.913Z</td>
     </tr>
 
  <tr id="docker.io-library-maven-latest">
     <td class="project-name"><a href="community-images/docker.io/library/maven/latest">Maven Build Jar</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4424432376"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4541118603"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
     <td class="project-image">library/maven:latest</td>
-    <td class="project-last-update">2023-03-15T08:58:23.623Z</td>
+    <td class="project-last-update">2023-03-28T09:49:11.524Z</td>
     </tr>
 
  <tr id="docker.io-library-gradle-latest">
     <td class="project-name"><a href="community-images/docker.io/library/gradle/latest">Gradle Build Jar</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4425206212"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4541118570"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
     <td class="project-image">library/gradle:latest</td>
-    <td class="project-last-update">2023-03-15T10:27:06.746Z</td>
+    <td class="project-last-update">2023-03-28T08:59:11.353Z</td>
  </tr>
  
  <tr id="docker.io-jenkins-jenkins-latest">
@@ -282,9 +282,9 @@ These applications are standalone containers that can run on their own. Where ne
     
  <tr id="docker.io-library-php-zendserver-latest">
     <td class="project-name"><a href="community-images/docker.io/library/php-zendserver/latest">PHP Zend Server</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4435610171"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4541118170"><img src="https://img.shields.io/badge/Build-Failing-red.svg" /></a></td>
     <td class="project-image">library/php-zendserver:latest</td>
-    <td class="project-last-update">2023-03-16T10:02:35.088Z</td>
+    <td class="project-last-update">2023-03-28T09:05:30.454Z</td>
     </tr>
     
 </table>
