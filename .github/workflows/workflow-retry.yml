@@ -1,0 +1,38 @@
+name: "Retry failed workflows"
+on:
+  schedule:
+  - cron: "* */3 * * *"
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Retry Failed Runs
+      run: |
+            org="slimdevops"
+            repo="community-images"
+            branch="main"
+            workflow_file="community-application-trigger.yml"
+
+            workflow_runs=$(curl -s -X GET "https://api.github.com/repos/$org/$repo/actions/workflows/$workflow_file/runs?branch=$branch&status=failure" -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" | jq -r '.workflow_runs[] | @base64')
+            
+            for workflow in $workflow_runs
+            do
+                workflow=$(echo $workflow | base64 --decode)
+
+                id=$(echo $workflow | jq -r '.id')
+                run_attempt=$(echo $workflow | jq -r '.run_attempt')
+                if [[ $run_attempt -lt 3 ]]
+                then
+                    result=$(curl -s -w "%{http_code}" -o /dev/null -X POST "https://api.github.com/repos/$org/$repo/actions/runs/$id/rerun" -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}")
+                    if [[ $result -eq 204 ]]
+                    then
+                        echo "Run $id triggered for rerun."
+                    else
+                        echo "Failed to trigger run $id for rerun. HTTP status code: $result"
+                    fi
+                else
+                    echo "Retry attempts exceeded for run $id."
+                fi
+            done
+            
