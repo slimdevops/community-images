@@ -62,7 +62,7 @@ These images are examples using popular base images such as `node:latest`. They 
     <td class="project-name"><a href="community-images/docker.io/library/ruby/latest">Ruby Hello World</a></td>
     <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4569429905"><img src="https://img.shields.io/badge/Build-Failing-red.svg" /></a></td>
     <td class="project-image">library/ruby:latest</td>
-    <td class="project-last-update">2023-03-30T22:12:20.330Z</td>
+    <td class="project-last-update">2023-03-31T08:32:04.302Z</td>
     </tr>
  <tr id="docker.io-library-ruby-3.1.3">
     <td class="project-name"><a href="community-images/docker.io/library/ruby/3.1.3">Ruby on Rails Hello World</a></td>
@@ -98,7 +98,7 @@ These images are examples using popular base images such as `node:latest`. They 
     <td class="project-name"><a href="community-images/docker.io/library/dart/latest">Dart Hello World</a></td>
     <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4561551807"><img src="https://img.shields.io/badge/Build-Failing-red.svg" /></a></td>
     <td class="project-image">library/dart:latest</td>
-    <td class="project-last-update">2023-03-30T07:12:47.623Z</td>
+    <td class="project-last-update">2023-03-31T08:32:49.452Z</td>
     </tr>
  <tr id="docker.io-library-erlang-latest">
     <td class="project-name"><a href="community-images/docker.io/library/erlang/latest">Erlang Hello World</a></td>
@@ -228,7 +228,7 @@ These applications are standalone containers that can run on their own. Where ne
     <td class="project-name"><a href="community-images/docker.io/library/redis/latest">Redis</a></td>
     <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4541722451"><img src="https://img.shields.io/badge/Build-Failing-red.svg" /></a></td>
     <td class="project-image">library/redis:latest</td>
-    <td class="project-last-update">2023-03-28T10:08:02.721Z</td>
+    <td class="project-last-update">2023-03-31T08:42:11.167Z</td>
     </tr>
 
  <tr id="docker.io-grafana-grafana-latest-ubuntu">
@@ -249,14 +249,14 @@ These applications are standalone containers that can run on their own. Where ne
     <td class="project-name"><a href="community-images/docker.io/library/drupal/9.4.9-php8.1">Drupal</a></td>
     <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4541734455"><img src="https://img.shields.io/badge/Build-Failing-red.svg" /></a></td>
     <td class="project-image">library/drupal:9.4.9-php8.1</td>
-    <td class="project-last-update">2023-03-28T10:37:52.733Z</td>
+    <td class="project-last-update">2023-03-31T09:01:16.430Z</td>
     </tr>
 
  <tr id="docker.io-library-wordpress-latest">
     <td class="project-name"><a href="community-images/docker.io/library/wordpress/latest">Wordpress</a></td>
     <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4570485951"><img src="https://img.shields.io/badge/Build-Failing-red.svg" /></a></td>
     <td class="project-image">library/wordpress:latest</td>
-    <td class="project-last-update">2023-03-31T01:14:35.620Z</td>
+    <td class="project-last-update">2023-03-31T08:34:18.227Z</td>
     </tr>
 
  <tr id="docker.io-library-maven-latest">
