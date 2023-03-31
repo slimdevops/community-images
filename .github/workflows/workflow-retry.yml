@@ -26,7 +26,7 @@ jobs:
                 if [[ $run_attempt -lt 3 ]]
                 then
                     result=$(curl -s -w "%{http_code}" -o /dev/null -X POST "https://api.github.com/repos/$org/$repo/actions/runs/$id/rerun" -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}")
-                    if [[ $result -eq 204 ]]
+                    if [[ $result -eq 201 ]]
                     then
                         echo "Run $id triggered for rerun."
                     else
