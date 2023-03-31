@@ -8,6 +8,7 @@
     "run_container_args": "redis-server /usr/local/etc/redis/redis.conf",
     "run_instrumented_as": "root",
     "slim_cli": {
+        "timeout": "20m",
         "stop-grace-period": "300s",
         "tls-verify-off": "true"
     }

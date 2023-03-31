@@ -6,6 +6,7 @@
     "test_command": "chmod +x ./test.sh && ./test.sh",
     "run_host_args": "-v drupal_vol:/opt/drupal:rw",
     "slim_cli": {
+        "timeout": "20m",
         "stop-grace-period": "300s",
         "include-path": [
             "/run/lock",

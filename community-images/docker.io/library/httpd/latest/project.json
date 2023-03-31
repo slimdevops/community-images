@@ -6,6 +6,7 @@
     "port": "80",
     "run_instrumented_as": "root",
     "slim_cli": {
+        "timeout": "20m",
         "stop-grace-period": "300s",
         "include-path": [
             "/usr/local/apache2/logs/"

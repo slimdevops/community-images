@@ -5,5 +5,8 @@
     "foreground": true,
     "port": "8080",
     "run_host_args": "-v $(pwd)/src:/project",
-    "run_container_args": "/bin/bash -c \"cd /project && gradle build\""
+    "run_container_args": "/bin/bash -c \"cd /project && gradle build\"",
+    "slim_cli": {
+        "timeout": "20m"
+    }
 }

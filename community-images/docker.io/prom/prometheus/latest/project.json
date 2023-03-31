@@ -4,5 +4,8 @@
     "port": "9090",
     "run_as": "root",
     "test_suite": "cypress",
-    "run_host_args": "-v $(pwd)/prometheus.yml:/etc/prometheus/prometheus.yml"
+    "run_host_args": "-v $(pwd)/prometheus.yml:/etc/prometheus/prometheus.yml",
+    "slim_cli": {
+        "timeout": "20m"
+    }
 }

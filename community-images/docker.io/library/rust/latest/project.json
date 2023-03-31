@@ -3,5 +3,8 @@
     "category": "hello-world",
     "source": "dockerfile",
     "test_suite": "newman",
-    "port": "8001"
+    "port": "8001",
+    "slim_cli": {
+        "timeout": "20m"
+    }
 }

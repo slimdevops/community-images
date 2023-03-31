@@ -6,6 +6,7 @@
     "test_suite": "cypress",
     "test_suite_host_args": "--rm",
     "slim_cli": {
+        "timeout": "20m",
         "stop-grace-period": "300s",
         "include-path": [
             "/run/lock"
