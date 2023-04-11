@@ -192,9 +192,9 @@ These images are examples using popular base images such as `node:latest`. They 
     </tr>
  <tr id="docker.io-library-httpd-latest">
     <td class="project-name"><a href="community-images/docker.io/library/httpd/latest">HTTPD Hello World</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4633430894"><img src="https://img.shields.io/badge/Build-Failing-red.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4668168697"><img src="https://img.shields.io/badge/Build-Failing-red.svg" /></a></td>
     <td class="project-image">library/httpd:latest</td>
-    <td class="project-last-update">2023-04-10T15:21:46.125Z</td>
+    <td class="project-last-update">2023-04-11T13:43:25.875Z</td>
     </tr>
  <tr id="docker.io-library-tomcat-latest">
     <td class="project-name"><a href="community-images/docker.io/library/tomcat/latest">Tomcat Hello World</a></td>
