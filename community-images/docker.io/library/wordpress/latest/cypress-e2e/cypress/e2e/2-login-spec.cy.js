@@ -1,7 +1,7 @@
 describe('template spec', () => {
   it('passes', () => {
     /* ==== Generated with Cypress Studio ==== */
-    cy.visit('localhost:80/wp-admin/');
+    cy.visit('http://localhost:80/wp-admin/');
 
     /* ==== End Cypress Studio ==== */
     /* ==== Generated with Cypress Studio ==== */
