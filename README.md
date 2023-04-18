@@ -48,9 +48,9 @@ These images are examples using popular base images such as `node:latest`. They 
 
  <tr id="docker.io-library-node-latest">
     <td class="project-name"><a href="community-images/docker.io/library/node/latest">NodeJS Hello World</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4678461031"><img src="https://img.shields.io/badge/Build-Failing-red.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4733330829"><img src="https://img.shields.io/badge/Build-Failing-red.svg" /></a></td>
     <td class="project-image">library/node:latest</td>
-    <td class="project-last-update">2023-04-12T12:55:05.015Z</td>
+    <td class="project-last-update">2023-04-18T14:07:12.226Z</td>
     </tr>
  <tr id="docker.io-library-rust-latest">
     <td class="project-name"><a href="community-images/docker.io/library/rust/latest">Rust Hello World</a></td>
@@ -263,7 +263,7 @@ These applications are standalone containers that can run on their own. Where ne
     <td class="project-name"><a href="community-images/docker.io/library/maven/latest">Maven Build Jar</a></td>
     <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4695272442"><img src="https://img.shields.io/badge/Build-Failing-red.svg" /></a></td>
     <td class="project-image">library/maven:latest</td>
-    <td class="project-last-update">2023-04-14T06:20:12.237Z</td>
+    <td class="project-last-update">2023-04-18T13:55:07.061Z</td>
     </tr>
 
  <tr id="docker.io-library-gradle-latest">
