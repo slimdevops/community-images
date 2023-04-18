@@ -44,7 +44,7 @@ jobs:
       CONNECTOR_ID: ${{ secrets.CONNECTOR_ID }}
       ACTION_RUNNER_URL: "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
       SLIM_IMAGE_REGISTRY: ${{ secrets.SLIM_IMAGE_REGISTRY }}
-      API_DOMAIN: "platform.slim.dev" #${{ secrets.API_DOMAIN }}
+      API_DOMAIN: ${{ secrets.API_DOMAIN }}
       IMAGE_OS: ${{ github.event.inputs.os }}
       IMAGE_ARCH: ${{ github.event.inputs.arch }}
       DISCORD_ENDPOINT: ${{ secrets.DISCORD_ENDPOINT || vars.DISCORD_ENDPOINT }}
