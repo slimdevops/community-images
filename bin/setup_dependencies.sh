@@ -27,7 +27,7 @@ echo "endpoint: https://$API_DOMAIN">> ~/.config/slim/config
 
 #slim config gen --save --token ${API_TOKEN} --org ${ORGANIZATION_ID}
 #Optional For Testing
-slim account info
+#slim account info
 slim status build
 echo "${HOME}/.slim/bin" >>$GITHUB_PATH
 echo "SLIM_CLI_VERSION=$SLIM_CLI_VERSION" >>$GITHUB_ENV
