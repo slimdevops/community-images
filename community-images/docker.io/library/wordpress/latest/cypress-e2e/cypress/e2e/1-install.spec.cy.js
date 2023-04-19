@@ -13,8 +13,8 @@ describe('template spec', () => {
     cy.get('#pass1').clear();
     cy.get('#pass1').type('demo@123');
     cy.get('.pw-checkbox').check();
-    cy.get('#admin_email').clear('sreejiths@focaloid.com');
-    cy.get('#admin_email').type('sreejiths@focaloid.com');
+    cy.get('#admin_email').clear('test@yopmail.com');
+    cy.get('#admin_email').type('test@yopmail.com');
     cy.get('#blog_public').check();
     cy.get('#submit').click();
     cy.get('.button').click();
