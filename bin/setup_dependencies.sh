@@ -16,7 +16,7 @@ SLIM_CLI_VERSION=$(curl -sq https://platform.zero.dev.saas.getslim.ai/.service/r
 SLIM_CLI_VERSION="0.0.12-dev"
 
 echo "Slim CLI: $SLIM_CLI_VERSION"
-#url https://platform.zero.dev.saas.getslim.ai/.service/releases/slim/$SLIM_CLI_VERSION | sh
+curl https://platform.zero.dev.saas.getslim.ai/.service/releases/slim/$SLIM_CLI_VERSION | sh
 
 echo "Configure Slim.ai CLI"
 echo "Adding ${HOME}/.slim/bin"
