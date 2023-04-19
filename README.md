@@ -132,9 +132,9 @@ These images are examples using popular base images such as `node:latest`. They 
     </tr>
  <tr id="docker.io-library-swift-latest">
     <td class="project-name"><a href="community-images/docker.io/library/swift/latest">Swift Hello World</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4580443719"><img src="https://img.shields.io/badge/Build-Failing-red.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4740267117"><img src="https://img.shields.io/badge/Build-Failing-red.svg" /></a></td>
     <td class="project-image">library/swift:latest</td>
-    <td class="project-last-update">2023-04-03T15:10:00.456Z</td>
+    <td class="project-last-update">2023-04-19T06:38:43.072Z</td>
     </tr>
  <tr id="docker.io-library-haskell-latest">
     <td class="project-name"><a href="community-images/docker.io/library/haskell/latest">Haskell Hello World</a></td>
