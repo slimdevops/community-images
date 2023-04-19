@@ -16,7 +16,7 @@ generate_post_data() {
   $content
   "embeds": [{
     "title": "$REGISTRY/$NAMESPACE/$REPOSITORY:$TAG",
-    "description": "Status: $status\nBranch: $REPO_BRANCH\n\nRunner: $ACTION_RUNNER_URL",
+    "description": "Status: $status\nBranch: $REPO_BRANCH\nCLI Version: $SLIM_CLI_VERSION\nAPI Domain: $API_DOMAIN\nRunner: $ACTION_RUNNER_URL",
     "color": $color
   }]
 }
