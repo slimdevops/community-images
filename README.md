@@ -48,21 +48,21 @@ These images are examples using popular base images such as `node:latest`. They 
 
  <tr id="docker.io-library-node-latest">
     <td class="project-name"><a href="community-images/docker.io/library/node/latest">NodeJS Hello World</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4734108358"><img src="https://img.shields.io/badge/Build-Failing-red.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4734238887"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
     <td class="project-image">library/node:latest</td>
-    <td class="project-last-update">2023-04-18T15:25:39.688Z</td>
+    <td class="project-last-update">2023-04-18T15:42:11.977Z</td>
     </tr>
  <tr id="docker.io-library-rust-latest">
     <td class="project-name"><a href="community-images/docker.io/library/rust/latest">Rust Hello World</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4678642775"><img src="https://img.shields.io/badge/Build-Failing-red.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4739981475"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
     <td class="project-image">library/rust:latest</td>
-    <td class="project-last-update">2023-04-12T18:18:03.650Z</td>
+    <td class="project-last-update">2023-04-19T05:54:28.757Z</td>
     </tr>
  <tr id="docker.io-library-ruby-latest">
     <td class="project-name"><a href="community-images/docker.io/library/ruby/latest">Ruby Hello World</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4678642499"><img src="https://img.shields.io/badge/Build-Failing-red.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4739984751"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
     <td class="project-image">library/ruby:latest</td>
-    <td class="project-last-update">2023-04-12T18:17:29.660Z</td>
+    <td class="project-last-update">2023-04-19T05:53:16.165Z</td>
     </tr>
  <tr id="docker.io-library-ruby-3.1.3">
     <td class="project-name"><a href="community-images/docker.io/library/ruby/3.1.3">Ruby on Rails Hello World</a></td>
@@ -78,15 +78,15 @@ These images are examples using popular base images such as `node:latest`. They 
     </tr>
  <tr id="docker.io-library-php-latest">
     <td class="project-name"><a href="community-images/docker.io/library/php/latest">PHP Hello World</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4703079040"><img src="https://img.shields.io/badge/Build-Failing-red.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4739991296"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
     <td class="project-image">library/php:latest</td>
-    <td class="project-last-update">2023-04-15T00:56:11.519Z</td>
+    <td class="project-last-update">2023-04-19T05:54:59.105Z</td>
     </tr>
  <tr id="docker.io-library-python-latest">
     <td class="project-name"><a href="community-images/docker.io/library/python/latest">Python Flask Hello World</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4680445253"><img src="https://img.shields.io/badge/Build-Failing-red.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4739992928"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
     <td class="project-image">library/python:latest</td>
-    <td class="project-last-update">2023-04-12T21:14:48.843Z</td>
+    <td class="project-last-update">2023-04-19T05:56:03.271Z</td>
     </tr>
  <tr id="docker.io-library-python-3.10.0">
     <td class="project-name"><a href="community-images/docker.io/library/python/3.10.0">Python Django Hello World</a></td>
@@ -96,15 +96,15 @@ These images are examples using popular base images such as `node:latest`. They 
     </tr>
  <tr id="docker.io-library-dart-latest">
     <td class="project-name"><a href="community-images/docker.io/library/dart/latest">Dart Hello World</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4677087289"><img src="https://img.shields.io/badge/Build-Failing-red.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4739995445"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
     <td class="project-image">library/dart:latest</td>
-    <td class="project-last-update">2023-04-17T06:00:15.291Z</td>
+    <td class="project-last-update">2023-04-19T05:54:56.443Z</td>
     </tr>
  <tr id="docker.io-library-erlang-latest">
     <td class="project-name"><a href="community-images/docker.io/library/erlang/latest">Erlang Hello World</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4681955202"><img src="https://img.shields.io/badge/Build-Failing-red.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4739996620"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
     <td class="project-image">library/erlang:latest</td>
-    <td class="project-last-update">2023-04-13T00:52:22.095Z</td>
+    <td class="project-last-update">2023-04-19T05:56:44.625Z</td>
     </tr>
  <tr id="docker.io-library-groovy-latest">
     <td class="project-name"><a href="community-images/docker.io/library/groovy/latest">Groovy Grails Hello World</a></td>
