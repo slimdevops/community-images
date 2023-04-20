@@ -247,9 +247,9 @@ These applications are standalone containers that can run on their own. Where ne
 
  <tr id="docker.io-library-drupal-9.4.9-php8.1">
     <td class="project-name"><a href="community-images/docker.io/library/drupal/9.4.9-php8.1">Drupal</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4740662313"><img src="https://img.shields.io/badge/Build-Failing-red.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4753162325"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
     <td class="project-image">library/drupal:9.4.9-php8.1</td>
-    <td class="project-last-update">2023-04-19T12:48:31.372Z</td>
+    <td class="project-last-update">2023-04-20T10:59:55.554Z</td>
     </tr>
 
  <tr id="docker.io-library-wordpress-latest">
