@@ -3,7 +3,7 @@
 
 Looking to ship library/amazoncorretto to production in a secure way without spending hours wrestling with your Dockerfiles? 
 
-This community image example automatically hardens your application for production, reducing the size from 349 MB to 210 MB and removes 0 vulnerabilities along the way. 
+This community image example automatically hardens your application for production, reducing the size from 349 MB to 210 MB and removes 5 vulnerabilities along the way. 
 
 Images labelled `Hello World` are meant to be starting points for application development. Simply replace the Hello World app code with your own and re-run the process for similar results. Standalone applications can be used as is, or reconfigured to meet your needs. 
 
@@ -22,8 +22,8 @@ You can see the results of the slim tests here!
 | Metric | Original | Hardened | Percent Change | 
 | ---| --- | --- | --- | 
 | Size | 349 MB | 210 MB | 39.00 | 
-| File Count | 6803 | 2888 | 57.00 | 
-| Vulnerabilities | 1 | 1 | 0.00 | 
+| File Count | 6803 | 2887 | 57.00 | 
+| Vulnerabilities | 5 | 0 | 100.00 | 
 | Critical Vulnerabilities | 0 | 0 | 
 | High Vulnerabilities | 0 | 0 | 
 
