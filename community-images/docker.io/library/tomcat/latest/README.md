@@ -3,7 +3,7 @@
 
 Looking to ship library/tomcat to production in a secure way without spending hours wrestling with your Dockerfiles? 
 
-This community image example automatically hardens your application for production, reducing the size from 494 MB to 225 MB and removes 12 vulnerabilities along the way. 
+This community image example automatically hardens your application for production, reducing the size from 493 MB to 225 MB and removes 15 vulnerabilities along the way. 
 
 Images labelled `Hello World` are meant to be starting points for application development. Simply replace the Hello World app code with your own and re-run the process for similar results. Standalone applications can be used as is, or reconfigured to meet your needs. 
 
@@ -21,11 +21,11 @@ You can see the results of the slim tests here!
 
 | Metric | Original | Hardened | Percent Change | 
 | ---| --- | --- | --- | 
-| Size | 494 MB | 225 MB | 54.00 | 
+| Size | 493 MB | 225 MB | 54.00 | 
 | File Count | 5898 | 651 | 88.00 | 
-| Vulnerabilities | 18 | 6 | 66.00 | 
+| Vulnerabilities | 29 | 14 | 51.00 | 
 | Critical Vulnerabilities | 1 | 1 | 
-| High Vulnerabilities | 9 | 4 | 
+| High Vulnerabilities | 5 | 5 | 
 
 
 You can check out the [new container image](https://portal.slim.dev/home/xray/dockerhub:%2F%2Fdockerhub.public%2Fslimdevops%2Ftomcat:latest.slimxx#explorer) for yourself on the Slim Platform (free registration required). 
