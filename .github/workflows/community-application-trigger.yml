@@ -34,6 +34,7 @@ jobs:
   build:
     runs-on: ubuntu-22.04
     env:
+      REPO_BRANCH: ${{ github.ref_name }}
       REGISTRY: ${{ github.event.inputs.registry }}
       NAMESPACE: ${{ github.event.inputs.namespace }}
       REPOSITORY: ${{ github.event.inputs.repository }}
@@ -43,7 +44,10 @@ jobs:
       CONNECTOR_ID: ${{ secrets.CONNECTOR_ID }}
       ACTION_RUNNER_URL: "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
       SLIM_IMAGE_REGISTRY: ${{ secrets.SLIM_IMAGE_REGISTRY }}
-      API_DOMAIN: "platform.slim.dev"
+      API_DOMAIN: ${{ secrets.API_DOMAIN }}
+      IMAGE_OS: ${{ github.event.inputs.os }}
+      IMAGE_ARCH: ${{ github.event.inputs.arch }}
+      DISCORD_ENDPOINT: ${{ secrets.DISCORD_ENDPOINT || vars.DISCORD_ENDPOINT }}
     steps:
       - uses: actions/checkout@v3
       - uses: docker/login-action@v2
@@ -87,3 +91,33 @@ jobs:
           name: "X-Ray and Vulnerability Scan"
           path: "${{ env.PROJECT_PATH }}/vscan-xray-reports"
           retention-days: 5
+
+      - name: Pull Repo Changes
+        if: always() && steps.project-identify.outputs.PROJECT_IDENTIFIED
+        run: |
+          git config --global user.email "marketing@slim.ai"
+          git config --global user.name "slim-bot"
+          git config pull.ff only
+          git pull
+
+      - name: Failure Event
+        if: failure() && steps.project-identify.outputs.PROJECT_IDENTIFIED
+        run: |
+          node ${GITHUB_WORKSPACE}/bin/status.js failed
+          git add ${PROJECT_PATH}/README.md
+          git add ${GITHUB_WORKSPACE}/README.md
+          git commit -m "docs: ${PROJECT_ORIGINAL_IMAGE} -> failed"
+          git pull
+          git push origin HEAD:${GITHUB_REF}
+          ${GITHUB_WORKSPACE}/bin/submit_status.sh "failed"
+
+      - name: Success Event
+        if: success() && steps.project-identify.outputs.PROJECT_IDENTIFIED
+        run: |
+          node ${GITHUB_WORKSPACE}/bin/status.js success
+          git add ${PROJECT_PATH}/README.md
+          git add ${GITHUB_WORKSPACE}/README.md
+          git commit -m "docs: ${PROJECT_ORIGINAL_IMAGE} -> success"
+          git pull
+          git push origin HEAD:${GITHUB_REF}
+          ${GITHUB_WORKSPACE}/bin/submit_status.sh success

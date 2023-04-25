@@ -1,0 +1,10 @@
+{
+    "name": "Dart Hello World",
+    "category": "hello-world",
+    "source": "dockerfile",
+    "test_suite": "newman",
+    "port": "8000",
+    "slim_cli": {
+        "timeout": "20m"
+    }
+}

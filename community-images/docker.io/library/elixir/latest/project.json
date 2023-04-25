@@ -1,0 +1,17 @@
+{
+    "name": "Elixir Hello World",
+    "category": "hello-world",
+    "source": "dockerfile",
+    "test_suite": "newman",
+    "port": "4000",
+    "slim_cli": {
+        "timeout": "20m",
+        "stop-grace-period": "300s",
+        "include-path": [
+            "/usr/src/myapp"
+        ],
+        "include-bin": [],
+        "include-exe": [],
+        "exclude-pattern": []
+    }
+}

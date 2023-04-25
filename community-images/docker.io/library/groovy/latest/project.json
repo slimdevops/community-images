@@ -1,0 +1,11 @@
+{
+    "name": "Groovy Grails Hello World",
+    "category": "hello-world",
+    "image": "docker.io/library/groovy:latest",
+    "source": "dockerfile",
+    "port": "8080",
+    "test_suite": "cypress",
+    "slim_cli": {
+        "timeout": "20m"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Grafana",
+    "source": "image",
+    "test_suite": "custom",
+    "port": "3000",
+    "run_as": "root",
+    "test_command": "chmod +x ./test.sh && ./test.sh",
+    "run_host_args": "-v $(pwd)/tmp/devenv/dev-dashboards:/var/lib/grafana/dashboards/devenv/dev-dashboards -v $(pwd)/conf:/usr/share/grafana/conf -v $(pwd)/conf/provisioning:/etc/grafana/provisioning",
+    "slim_cli": {
+        "timeout": "20m",
+        "stop-grace-period":"300s",
+        "include-path": ["/usr/bin/mkdir"],
+        "include-bin": [],
+        "include-exe": [],
+        "exclude-pattern": []
+    }
+}

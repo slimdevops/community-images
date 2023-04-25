@@ -1,0 +1,10 @@
+{
+    "name": "NGINX Hello World",
+    "category": "hello-world",
+    "source": "dockerfile",
+    "test_suite": "newman",
+    "port": "80",
+    "slim_cli": {
+        "timeout": "20m"
+    }
+}

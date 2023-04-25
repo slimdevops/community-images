@@ -1,0 +1,12 @@
+{
+    "name": "Maven Build Jar",
+    "source": "image",
+    "test_suite": "newman",
+    "foreground": true,
+    "port": "8080",
+    "run_host_args": "-v $(pwd)/src:/project",
+    "run_container_args": "/bin/bash -c \"cd /project && mvn install\"",
+    "slim_cli": {
+        "timeout": "20m"
+    }
+}

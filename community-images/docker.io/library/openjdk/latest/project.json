@@ -1,0 +1,11 @@
+{
+    "name": "OpenJDK Hello World",
+    "category": "hello-world",
+    "source": "dockerfile",
+    "test_suite": "newman",
+    "port": "8080",
+    "image": "registry.hub.docker.com/library/openjdk:latest",
+    "slim_cli": {
+        "timeout": "20m"
+    }
+}

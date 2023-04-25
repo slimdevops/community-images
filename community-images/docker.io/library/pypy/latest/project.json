@@ -1,0 +1,11 @@
+{
+    "name": "PyPy & FastAPI Hello World",
+    "category": "hello-world",
+    "image": "docker.io/library/pypy:latest",
+    "source": "dockerfile",
+    "test_suite": "newman",
+    "port": "8000",
+    "slim_cli": {
+        "timeout": "20m"
+    }
+}

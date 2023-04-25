@@ -1,0 +1,19 @@
+{
+    "name": "Jetty Hello World",
+    "category": "hello-world",
+    "image": "docker.io/library/jetty:latest",
+    "source": "dockerfile",
+    "test_suite": "newman",
+    "port": "8080",
+    "run_instrumented_as": "root",
+    "slim_cli": {
+        "timeout": "20m",
+        "stop-grace-period": "300s",
+        "include-path": [
+            "/tmp/jetty"
+        ],
+        "include-bin": [],
+        "include-exe": [],
+        "exclude-pattern": []
+    }
+}

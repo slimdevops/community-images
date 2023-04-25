@@ -1,0 +1,17 @@
+{
+    "name": "Wordpress",
+    "source": "image",
+    "port": "80",
+    "run_host_args": "-e WORDPRESS_DB_HOST=127.0.0.1 -e WORDPRESS_DB_USER=root -e WORDPRESS_DB_PASSWORD=admin -e WORDPRESS_DB_NAME=exampledb",
+    "test_suite": "cypress",
+    "slim_cli": {
+        "timeout": "20m",
+        "stop-grace-period": "300s",
+        "include-path": [
+            "/run/lock"
+        ],
+        "include-bin": [],
+        "include-exe": [],
+        "exclude-pattern": []
+    }
+}

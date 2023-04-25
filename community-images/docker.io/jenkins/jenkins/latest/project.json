@@ -1,0 +1,21 @@
+{
+    "name": "Jenkins",
+    "image": "docker.io/jenkins/jenkins:latest",
+    "source": "image",
+    "port": "8080",
+    "test_suite": "cypress",
+    "run_as": "root",
+    "test_suite_host_args": "-e cypress_password=$(docker exec $PROJECT_CONTAINER_NAME cat /var/jenkins_home/secrets/initialAdminPassword)",
+    "slim_cli": {
+        "timeout": "20m",
+        "stop-grace-period": "300s",
+        "include-path": [
+            "/usr/share/jenkins",
+            "/usr/share/jenkins/ref",
+            "/home"
+        ],
+        "include-bin": [],
+        "include-exe": [],
+        "exclude-pattern": []
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "name": "Swift Hello World",
+    "category": "hello-world",
+    "source": "dockerfile",
+    "test_suite": "newman",
+    "port": "8080",
+    "slim_cli": {
+        "timeout": "20m"
+    }
+}

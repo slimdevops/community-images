@@ -1,0 +1,11 @@
+Cabal-version:  3.8
+Name:           MyServer
+Version:        0.1
+
+
+Executable my-server
+    main-is: Server.hs
+    build-depends:  base,
+                    wai,
+                    warp,
+                    http-types
