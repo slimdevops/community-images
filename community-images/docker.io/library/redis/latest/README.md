@@ -3,7 +3,7 @@
 
 Looking to ship library/redis to production in a secure way without spending hours wrestling with your Dockerfiles? 
 
-This community image example automatically hardens your application for production, reducing the size from 117 MB to 36 MB and removes 34 vulnerabilities along the way. 
+This community image example automatically hardens your application for production, reducing the size from 117 MB to 36 MB and removes 33 vulnerabilities along the way. 
 
 Images labelled `Hello World` are meant to be starting points for application development. Simply replace the Hello World app code with your own and re-run the process for similar results. Standalone applications can be used as is, or reconfigured to meet your needs. 
 
@@ -22,10 +22,10 @@ You can see the results of the slim tests here!
 | Metric | Original | Hardened | Percent Change | 
 | ---| --- | --- | --- | 
 | Size | 117 MB | 36 MB | 68.00 | 
-| File Count | 3634 | 418 | 88.00 | 
-| Vulnerabilities | 58 | 24 | 58.00 | 
+| File Count | 3633 | 418 | 88.00 | 
+| Vulnerabilities | 59 | 26 | 55.00 | 
 | Critical Vulnerabilities | 3 | 2 | 
-| High Vulnerabilities | 10 | 4 | 
+| High Vulnerabilities | 11 | 5 | 
 
 
 You can check out the [new container image](https://portal.slim.dev/home/xray/dockerhub:%2F%2Fdockerhub.public%2Fslimdevops%2Fredis:latest.slimxx#explorer) for yourself on the Slim Platform (free registration required). 
