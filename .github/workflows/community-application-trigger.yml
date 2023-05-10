@@ -175,12 +175,14 @@ jobs:
           retention-days: 5
 
       - name: "X-Ray"
+        timeout-minutes: 15
         env:
           ORGANIZATION_ID: ${{ secrets.ORGANIZATION_ID }}
           API_TOKEN: ${{ secrets.API_TOKEN }}
         run: " ${GITHUB_WORKSPACE}/bin/x_ray_report.sh"
 
       - name: "Vulnerability Scan"
+        timeout-minutes: 15
         env:
           ORGANIZATION_ID: ${{ secrets.ORGANIZATION_ID }}
           API_TOKEN: ${{ secrets.API_TOKEN }}
