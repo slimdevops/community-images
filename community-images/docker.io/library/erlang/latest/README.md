@@ -3,7 +3,7 @@
 
 Looking to ship library/erlang to production in a secure way without spending hours wrestling with your Dockerfiles? 
 
-This community image example automatically hardens your application for production, reducing the size from 1.5 GB to 74 MB and removes 341 vulnerabilities along the way. 
+This community image example automatically hardens your application for production, reducing the size from 1.5 GB to 79 MB and removes 350 vulnerabilities along the way. 
 
 Images labelled `Hello World` are meant to be starting points for application development. Simply replace the Hello World app code with your own and re-run the process for similar results. Standalone applications can be used as is, or reconfigured to meet your needs. 
 
@@ -21,11 +21,11 @@ You can see the results of the slim tests here!
 
 | Metric | Original | Hardened | Percent Change | 
 | ---| --- | --- | --- | 
-| Size | 1.5 GB | 74 MB | 94.00 | 
-| File Count | 38167 | 721 | 98.00 | 
-| Vulnerabilities | 351 | 10 | 97.00 | 
+| Size | 1.5 GB | 79 MB | 94.00 | 
+| File Count | 38212 | 727 | 98.00 | 
+| Vulnerabilities | 360 | 10 | 97.00 | 
 | Critical Vulnerabilities | 8 | 0 | 
-| High Vulnerabilities | 65 | 1 | 
+| High Vulnerabilities | 68 | 1 | 
 
 
 You can check out the [new container image](https://portal.slim.dev/home/xray/dockerhub:%2F%2Fdockerhub.public%2Fslimdevops%2Ferlang:latest.slimxx#explorer) for yourself on the Slim Platform (free registration required). 
