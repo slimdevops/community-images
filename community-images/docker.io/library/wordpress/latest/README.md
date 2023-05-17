@@ -3,7 +3,7 @@
 
 Looking to ship library/wordpress to production in a secure way without spending hours wrestling with your Dockerfiles? 
 
-This community image example automatically hardens your application for production, reducing the size from 616 MB to 204 MB and removes 173 vulnerabilities along the way. 
+This community image example automatically hardens your application for production, reducing the size from 616 MB to 204 MB and removes 175 vulnerabilities along the way. 
 
 Images labelled `Hello World` are meant to be starting points for application development. Simply replace the Hello World app code with your own and re-run the process for similar results. Standalone applications can be used as is, or reconfigured to meet your needs. 
 
@@ -23,9 +23,9 @@ You can see the results of the slim tests here!
 | ---| --- | --- | --- | 
 | Size | 616 MB | 204 MB | 66.00 | 
 | File Count | 14954 | 4356 | 70.00 | 
-| Vulnerabilities | 310 | 137 | 55.00 | 
+| Vulnerabilities | 315 | 140 | 55.00 | 
 | Critical Vulnerabilities | 6 | 5 | 
-| High Vulnerabilities | 52 | 28 | 
+| High Vulnerabilities | 56 | 28 | 
 
 
 You can check out the [new container image](https://portal.slim.dev/home/xray/dockerhub:%2F%2Fdockerhub.public%2Fslimdevops%2Fwordpress:latest.slimxx#explorer) for yourself on the Slim Platform (free registration required). 
