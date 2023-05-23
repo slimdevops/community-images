@@ -25,7 +25,7 @@ You can see the results of the slim tests here!
 | File Count | 3633 | 418 | 88.00 | 
 | Vulnerabilities | 59 | 26 | 55.00 | 
 | Critical Vulnerabilities | 3 | 2 | 
-| High Vulnerabilities | 11 | 5 | 
+| High Vulnerabilities | 12 | 5 | 
 
 
 You can check out the [new container image](https://portal.slim.dev/home/xray/dockerhub:%2F%2Fdockerhub.public%2Fslimdevops%2Fredis:latest.slimxx#explorer) for yourself on the Slim Platform (free registration required). 
