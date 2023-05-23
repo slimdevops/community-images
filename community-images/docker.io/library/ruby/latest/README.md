@@ -3,7 +3,7 @@
 
 Looking to ship library/ruby to production in a secure way without spending hours wrestling with your Dockerfiles? 
 
-This community image example automatically hardens your application for production, reducing the size from 906 MB to 36 MB and removes 330 vulnerabilities along the way. 
+This community image example automatically hardens your application for production, reducing the size from 892 MB to 36 MB and removes 336 vulnerabilities along the way. 
 
 Images labelled `Hello World` are meant to be starting points for application development. Simply replace the Hello World app code with your own and re-run the process for similar results. Standalone applications can be used as is, or reconfigured to meet your needs. 
 
@@ -21,9 +21,9 @@ You can see the results of the slim tests here!
 
 | Metric | Original | Hardened | Percent Change | 
 | ---| --- | --- | --- | 
-| Size | 906 MB | 36 MB | 96.00 | 
-| File Count | 24908 | 714 | 97.00 | 
-| Vulnerabilities | 341 | 11 | 96.00 | 
+| Size | 892 MB | 36 MB | 95.00 | 
+| File Count | 24601 | 714 | 97.00 | 
+| Vulnerabilities | 347 | 11 | 96.00 | 
 | Critical Vulnerabilities | 7 | 0 | 
 | High Vulnerabilities | 62 | 1 | 
 
