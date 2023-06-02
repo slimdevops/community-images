@@ -22,7 +22,7 @@ You can see the results of the slim tests here!
 | Metric | Original | Hardened | Percent Change | 
 | ---| --- | --- | --- | 
 | Size | 2.6 GB | 38 MB | 98.00 | 
-| File Count | 15025 | 541 | 96.00 | 
+| File Count | 14966 | 554 | 96.00 | 
 | Vulnerabilities | 117 | 1 | 99.00 | 
 | Critical Vulnerabilities | 0 | 0 | 
 | High Vulnerabilities | 0 | 0 | 
