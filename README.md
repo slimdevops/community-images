@@ -282,9 +282,9 @@ These applications are standalone containers that can run on their own. Where ne
     
  <tr id="docker.io-library-php-zendserver-latest">
     <td class="project-name"><a href="community-images/docker.io/library/php-zendserver/latest">PHP Zend Server</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/4987756182"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/5151742944"><img src="https://img.shields.io/badge/Build-Failing-red.svg" /></a></td>
     <td class="project-image">library/php-zendserver:latest</td>
-    <td class="project-last-update">2023-05-16T04:28:17.157Z</td>
+    <td class="project-last-update">2023-06-02T04:17:18.341Z</td>
     </tr>
     
 </table>
