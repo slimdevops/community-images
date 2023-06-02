@@ -3,7 +3,7 @@
 
 Looking to ship library/php-zendserver to production in a secure way without spending hours wrestling with your Dockerfiles? 
 
-This community image example automatically hardens your application for production, reducing the size from 1.0 GB to 351 MB and removes 2 vulnerabilities along the way. 
+This community image example automatically hardens your application for production, reducing the size from 1.0 GB to 333 MB and removes 3 vulnerabilities along the way. 
 
 Images labelled `Hello World` are meant to be starting points for application development. Simply replace the Hello World app code with your own and re-run the process for similar results. Standalone applications can be used as is, or reconfigured to meet your needs. 
 
@@ -21,9 +21,9 @@ You can see the results of the slim tests here!
 
 | Metric | Original | Hardened | Percent Change | 
 | ---| --- | --- | --- | 
-| Size | 1.0 GB | 351 MB | 65.00 | 
-| File Count | 17563 | 2743 | 84.00 | 
-| Vulnerabilities | 22 | 20 | 9.00 | 
+| Size | 1.0 GB | 333 MB | 67.00 | 
+| File Count | 17563 | 2720 | 84.00 | 
+| Vulnerabilities | 22 | 19 | 13.00 | 
 | Critical Vulnerabilities | 4 | 4 | 
 | High Vulnerabilities | 7 | 6 | 
 
