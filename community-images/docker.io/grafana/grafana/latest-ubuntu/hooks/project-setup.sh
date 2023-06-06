@@ -25,6 +25,5 @@ else
   exit 1
 fi
 
-
-git clone -b v$version https://github.com/grafana/grafana.git ./tmp 
+git clone --depth 1 --branch v$version https://github.com/grafana/grafana.git ./tmp
 npm install --quiet -g yarn
