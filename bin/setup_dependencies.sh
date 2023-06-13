@@ -23,7 +23,7 @@ export PATH="${HOME}/.slim/bin:$PATH"
 mkdir -p ~/.config/slim/
 echo "token: $API_TOKEN"> ~/.config/slim/config
 echo "default_org: $ORGANIZATION_ID">> ~/.config/slim/config
-echo "endpoint: https://$API_DOMAIN">> ~/.config/slim/config
+#echo "endpoint: https://$API_DOMAIN">> ~/.config/slim/config
 
 #slim config gen --save --token ${API_TOKEN} --org ${ORGANIZATION_ID}
 #Optional For Testing
