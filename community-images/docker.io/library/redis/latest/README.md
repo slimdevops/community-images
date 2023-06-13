@@ -22,10 +22,10 @@ You can see the results of the slim tests here!
 | Metric | Original | Hardened | Percent Change | 
 | ---| --- | --- | --- | 
 | Size | 117 MB | 36 MB | 68.00 | 
-| File Count | 3633 | 418 | 88.00 | 
-| Vulnerabilities | 59 | 26 | 55.00 | 
+| File Count | 3634 | 418 | 88.00 | 
+| Vulnerabilities | 55 | 22 | 60.00 | 
 | Critical Vulnerabilities | 3 | 2 | 
-| High Vulnerabilities | 12 | 5 | 
+| High Vulnerabilities | 9 | 2 | 
 
 
 You can check out the [new container image](https://portal.slim.dev/home/xray/dockerhub:%2F%2Fdockerhub.public%2Fslimdevops%2Fredis:latest.slimxx#explorer) for yourself on the Slim Platform (free registration required). 
