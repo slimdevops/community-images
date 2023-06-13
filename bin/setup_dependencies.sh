@@ -5,7 +5,7 @@ sudo apt-get update -qq
 sudo apt install -qq -y libxml2-utils
 
 echo "Install Slim.ai CLI"
-SLIM_CLI_VERSION=$(curl -sq https://platform.zero.dev.saas.getslim.ai/.service/releases/slim | jq -r '.data[] | select(.latest == true) | .version')
+SLIM_CLI_VERSION=$(curl -sq https://platform.slim.dev/.service/releases/slim | jq -r '.data[] | select(.latest == true) | .version')
 
 [[ -z $SLIM_CLI_VERSION ]] && { 
     echo "Unable to identify latest CLI version !"; 
@@ -14,7 +14,7 @@ SLIM_CLI_VERSION=$(curl -sq https://platform.zero.dev.saas.getslim.ai/.service/r
 
 
 echo "Slim CLI: $SLIM_CLI_VERSION"
-curl https://platform.zero.dev.saas.getslim.ai/.service/releases/slim/$SLIM_CLI_VERSION | sh
+curl https://platform.slim.dev/.service/releases/slim/$SLIM_CLI_VERSION | sh
 
 echo "Configure Slim.ai CLI"
 echo "Adding ${HOME}/.slim/bin"
