@@ -3,7 +3,7 @@
 
 Looking to ship library/golang to production in a secure way without spending hours wrestling with your Dockerfiles? 
 
-This community image example automatically hardens your application for production, reducing the size from 1.2 GB to 26 MB and removes 254 vulnerabilities along the way. 
+This community image example automatically hardens your application for production, reducing the size from 1.2 GB to 26 MB and removes 256 vulnerabilities along the way. 
 
 Images labelled `Hello World` are meant to be starting points for application development. Simply replace the Hello World app code with your own and re-run the process for similar results. Standalone applications can be used as is, or reconfigured to meet your needs. 
 
@@ -22,10 +22,10 @@ You can see the results of the slim tests here!
 | Metric | Original | Hardened | Percent Change | 
 | ---| --- | --- | --- | 
 | Size | 1.2 GB | 26 MB | 97.00 | 
-| File Count | 32766 | 549 | 98.00 | 
-| Vulnerabilities | 265 | 11 | 95.00 | 
-| Critical Vulnerabilities | 5 | 1 | 
-| High Vulnerabilities | 57 | 0 | 
+| File Count | 32785 | 549 | 98.00 | 
+| Vulnerabilities | 267 | 11 | 95.00 | 
+| Critical Vulnerabilities | 4 | 0 | 
+| High Vulnerabilities | 56 | 1 | 
 
 
 You can check out the [new container image](https://portal.slim.dev/home/xray/dockerhub:%2F%2Fdockerhub.public%2Fslimdevops%2Fgolang:latest.slimxx#explorer) for yourself on the Slim Platform (free registration required). 
