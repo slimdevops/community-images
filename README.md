@@ -162,9 +162,9 @@ These images are examples using popular base images such as `node:latest`. They 
     </tr>
  <tr id="docker.io-library-pypy-latest">
     <td class="project-name"><a href="community-images/docker.io/library/pypy/latest">PyPy & FastAPI Hello World</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/5329980512"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/5362469566"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
     <td class="project-image">library/pypy:latest</td>
-    <td class="project-last-update">2023-06-21T04:11:23.708Z</td>
+    <td class="project-last-update">2023-06-24T04:10:38.329Z</td>
     </tr>
  <tr id="docker.io-library-mono-latest">
     <td class="project-name"><a href="community-images/docker.io/library/mono/latest">Mono Hello World</a></td>
