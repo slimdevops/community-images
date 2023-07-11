@@ -3,7 +3,7 @@
 
 Looking to ship library/php to production in a secure way without spending hours wrestling with your Dockerfiles? 
 
-This community image example automatically hardens your application for production, reducing the size from 529 MB to 92 MB and removes 140 vulnerabilities along the way. 
+This community image example automatically hardens your application for production, reducing the size from 529 MB to 92 MB and removes 151 vulnerabilities along the way. 
 
 Images labelled `Hello World` are meant to be starting points for application development. Simply replace the Hello World app code with your own and re-run the process for similar results. Standalone applications can be used as is, or reconfigured to meet your needs. 
 
@@ -23,9 +23,9 @@ You can see the results of the slim tests here!
 | ---| --- | --- | --- | 
 | Size | 529 MB | 92 MB | 82.00 | 
 | File Count | 9051 | 721 | 92.00 | 
-| Vulnerabilities | 163 | 23 | 85.00 | 
+| Vulnerabilities | 174 | 23 | 86.00 | 
 | Critical Vulnerabilities | 2 | 0 | 
-| High Vulnerabilities | 24 | 3 | 
+| High Vulnerabilities | 34 | 3 | 
 
 
 You can check out the [new container image](https://portal.slim.dev/home/xray/dockerhub:%2F%2Fdockerhub.public%2Fslimdevops%2Fphp:latest.slimxx#explorer) for yourself on the Slim Platform (free registration required). 
