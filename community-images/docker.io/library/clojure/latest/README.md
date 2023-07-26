@@ -3,7 +3,7 @@
 
 Looking to ship library/clojure to production in a secure way without spending hours wrestling with your Dockerfiles? 
 
-This community image example automatically hardens your application for production, reducing the size from 595 MB to 209 MB and removes 28 vulnerabilities along the way. 
+This community image example automatically hardens your application for production, reducing the size from 544 MB to 209 MB and removes 29 vulnerabilities along the way. 
 
 Images labelled `Hello World` are meant to be starting points for application development. Simply replace the Hello World app code with your own and re-run the process for similar results. Standalone applications can be used as is, or reconfigured to meet your needs. 
 
@@ -21,9 +21,9 @@ You can see the results of the slim tests here!
 
 | Metric | Original | Hardened | Percent Change | 
 | ---| --- | --- | --- | 
-| Size | 595 MB | 209 MB | 64.00 | 
-| File Count | 9057 | 631 | 93.00 | 
-| Vulnerabilities | 31 | 3 | 90.00 | 
+| Size | 544 MB | 209 MB | 61.00 | 
+| File Count | 9056 | 631 | 93.00 | 
+| Vulnerabilities | 32 | 3 | 90.00 | 
 | Critical Vulnerabilities | 1 | 1 | 
 | High Vulnerabilities | 1 | 0 | 
 
