@@ -268,9 +268,9 @@ These applications are standalone containers that can run on their own. Where ne
 
  <tr id="docker.io-library-gradle-latest">
     <td class="project-name"><a href="community-images/docker.io/library/gradle/latest">Gradle Build Jar</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/5802392330"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/5861128346"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
     <td class="project-image">library/gradle:latest</td>
-    <td class="project-last-update">2023-08-08T22:13:42.627Z</td>
+    <td class="project-last-update">2023-08-14T22:13:24.879Z</td>
  </tr>
  
  <tr id="docker.io-jenkins-jenkins-latest">
