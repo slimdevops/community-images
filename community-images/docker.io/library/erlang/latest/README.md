@@ -3,7 +3,7 @@
 
 Looking to ship library/erlang to production in a secure way without spending hours wrestling with your Dockerfiles? 
 
-This community image example automatically hardens your application for production, reducing the size from 1.5 GB to 79 MB and removes 408 vulnerabilities along the way. 
+This community image example automatically hardens your application for production, reducing the size from 1.5 GB to 79 MB and removes 415 vulnerabilities along the way. 
 
 Images labelled `Hello World` are meant to be starting points for application development. Simply replace the Hello World app code with your own and re-run the process for similar results. Standalone applications can be used as is, or reconfigured to meet your needs. 
 
@@ -23,8 +23,8 @@ You can see the results of the slim tests here!
 | ---| --- | --- | --- | 
 | Size | 1.5 GB | 79 MB | 94.00 | 
 | File Count | 38213 | 727 | 98.00 | 
-| Vulnerabilities | 418 | 10 | 97.00 | 
-| Critical Vulnerabilities | 6 | 0 | 
+| Vulnerabilities | 425 | 10 | 97.00 | 
+| Critical Vulnerabilities | 7 | 0 | 
 | High Vulnerabilities | 80 | 1 | 
 
 
