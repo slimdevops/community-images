@@ -3,7 +3,7 @@
 
 Looking to ship library/wordpress to production in a secure way without spending hours wrestling with your Dockerfiles? 
 
-This community image example automatically hardens your application for production, reducing the size from Unknown to Unknown and removes Unknown vulnerabilities along the way. 
+This community image example automatically hardens your application for production, reducing the size from 666 MB to 206 MB and removes Unknown vulnerabilities along the way. 
 
 Images labelled `Hello World` are meant to be starting points for application development. Simply replace the Hello World app code with your own and re-run the process for similar results. Standalone applications can be used as is, or reconfigured to meet your needs. 
 
@@ -21,8 +21,8 @@ You can see the results of the slim tests here!
 
 | Metric | Original | Hardened | Percent Change | 
 | ---| --- | --- | --- | 
-| Size | Unknown | Unknown | Unknown | 
-| File Count | Unknown | Unknown | Unknown | 
+| Size | 666 MB | 206 MB | 69.00 | 
+| File Count | 16985 | 4402 | 74.00 | 
 | Vulnerabilities | Unknown | Unknown | Unknown | 
 | Critical Vulnerabilities | Unknown | Unknown | 
 | High Vulnerabilities | Unknown | Unknown | 
