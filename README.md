@@ -96,9 +96,9 @@ These images are examples using popular base images such as `node:latest`. They 
     </tr>
  <tr id="docker.io-library-dart-latest">
     <td class="project-name"><a href="community-images/docker.io/library/dart/latest">Dart Hello World</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/5877417051"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/5908531444"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
     <td class="project-image">library/dart:latest</td>
-    <td class="project-last-update">2023-08-16T10:08:45.810Z</td>
+    <td class="project-last-update">2023-08-19T01:08:55.422Z</td>
     </tr>
  <tr id="docker.io-library-erlang-latest">
     <td class="project-name"><a href="community-images/docker.io/library/erlang/latest">Erlang Hello World</a></td>
