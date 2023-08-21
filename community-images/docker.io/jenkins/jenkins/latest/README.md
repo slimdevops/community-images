@@ -3,7 +3,7 @@
 
 Looking to ship jenkins/jenkins to production in a secure way without spending hours wrestling with your Dockerfiles? 
 
-This community image example automatically hardens your application for production, reducing the size from 468 MB to 212 MB and removes 75 vulnerabilities along the way. 
+This community image example automatically hardens your application for production, reducing the size from 463 MB to 207 MB and removes 80 vulnerabilities along the way. 
 
 Images labelled `Hello World` are meant to be starting points for application development. Simply replace the Hello World app code with your own and re-run the process for similar results. Standalone applications can be used as is, or reconfigured to meet your needs. 
 
@@ -21,11 +21,11 @@ You can see the results of the slim tests here!
 
 | Metric | Original | Hardened | Percent Change | 
 | ---| --- | --- | --- | 
-| Size | 468 MB | 212 MB | 54.00 | 
-| File Count | 9392 | 749 | 92.00 | 
-| Vulnerabilities | 99 | 24 | 75.00 | 
-| Critical Vulnerabilities | 5 | 1 | 
-| High Vulnerabilities | 26 | 8 | 
+| Size | 463 MB | 207 MB | 55.00 | 
+| File Count | 9394 | 749 | 92.00 | 
+| Vulnerabilities | 101 | 21 | 79.00 | 
+| Critical Vulnerabilities | 4 | 1 | 
+| High Vulnerabilities | 17 | 3 | 
 
 
 You can check out the [new container image](https://portal.slim.dev/home/xray/dockerhub:%2F%2Fdockerhub.public%2Fslimdevops%2Fjenkins:latest.slimxx#explorer) for yourself on the Slim Platform (free registration required). 
