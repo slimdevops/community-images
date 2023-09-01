@@ -23,9 +23,9 @@ You can see the results of the slim tests here!
 | ---| --- | --- | --- | 
 | Size | 1.7 GB | 268 MB | 84.00 | 
 | File Count | 10033 | 580 | 94.00 | 
-| Vulnerabilities | 115 | 46 | 60.00 | 
+| Vulnerabilities | 116 | 47 | 59.00 | 
 | Critical Vulnerabilities | 13 | 9 | 
-| High Vulnerabilities | 46 | 19 | 
+| High Vulnerabilities | 47 | 19 | 
 
 
 You can check out the [new container image](https://portal.slim.dev/home/xray/dockerhub:%2F%2Fdockerhub.public%2Fslimdevops%2Fgroovy:latest.slimxx#explorer) for yourself on the Slim Platform (free registration required). 
