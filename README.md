@@ -78,9 +78,9 @@ These images are examples using popular base images such as `node:latest`. They 
     </tr>
  <tr id="docker.io-library-php-latest">
     <td class="project-name"><a href="community-images/docker.io/library/php/latest">PHP Hello World</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/5897590990"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/6057708659"><img src="https://img.shields.io/badge/Build-Failing-red.svg" /></a></td>
     <td class="project-image">library/php:latest</td>
-    <td class="project-last-update">2023-08-18T01:10:02.804Z</td>
+    <td class="project-last-update">2023-09-02T10:09:49.938Z</td>
     </tr>
  <tr id="docker.io-library-python-latest">
     <td class="project-name"><a href="community-images/docker.io/library/python/latest">Python Flask Hello World</a></td>
