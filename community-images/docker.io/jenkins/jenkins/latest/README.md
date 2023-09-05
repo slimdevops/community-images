@@ -3,7 +3,7 @@
 
 Looking to ship jenkins/jenkins to production in a secure way without spending hours wrestling with your Dockerfiles? 
 
-This community image example automatically hardens your application for production, reducing the size from 478 MB to 206 MB and removes 50 vulnerabilities along the way. 
+This community image example automatically hardens your application for production, reducing the size from 478 MB to 206 MB and removes 51 vulnerabilities along the way. 
 
 Images labelled `Hello World` are meant to be starting points for application development. Simply replace the Hello World app code with your own and re-run the process for similar results. Standalone applications can be used as is, or reconfigured to meet your needs. 
 
@@ -23,7 +23,7 @@ You can see the results of the slim tests here!
 | ---| --- | --- | --- | 
 | Size | 478 MB | 206 MB | 56.00 | 
 | File Count | 9367 | 719 | 92.00 | 
-| Vulnerabilities | 63 | 13 | 79.00 | 
+| Vulnerabilities | 63 | 12 | 80.00 | 
 | Critical Vulnerabilities | 3 | 1 | 
 | High Vulnerabilities | 5 | 1 | 
 
