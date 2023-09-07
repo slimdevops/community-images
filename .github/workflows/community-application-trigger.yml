@@ -95,10 +95,6 @@ jobs:
         env:
           STAGE: "FAT"
         run: "${GITHUB_WORKSPACE}/bin/cleanup.sh"
-      - name: Add to CIETL
-        run: |
-          chmod +x "${GITHUB_WORKSPACE}/bin/add_to_cietl.sh"
-          "${GITHUB_WORKSPACE}/bin/add_to_cietl.sh"
       #GENERATE SLIM/INSTRUMENT IMAGE
       - name: "Process Via Slim.ai"
         run: "${GITHUB_WORKSPACE}/bin/cli_instrument.sh"
