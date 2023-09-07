@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set the URL you want to post data to
-URL= $TRIGGER_URL
+URL="$TRIGGER_URL"
 
 # Define the data you want to send in JSON format
 DATA='{"registry": "'"$REGISTRY"'", "namespace": "'"$NAMESPACE"'", "repository": "'"$REPOSITORY"'", "digest": "'"$DIGEST"'", "tag": "'"$TAG"'"}'
