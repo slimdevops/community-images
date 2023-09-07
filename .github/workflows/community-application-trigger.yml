@@ -71,6 +71,7 @@ jobs:
         working-directory: "${{ env.PROJECT_PATH }}"
         run: "${GITHUB_WORKSPACE}/bin/configure_project.sh && ${HOOK_EXEC} project-setup"
       - name: Add to CIETL
+        working-directory: "${{ env.PROJECT_PATH }}"
         run: "${GITHUB_WORKSPACE}/bin/add_to_cietl.sh"
       #FAT OPERATIONS
       - name: "Fat Containerization"
