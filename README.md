@@ -226,9 +226,9 @@ These applications are standalone containers that can run on their own. Where ne
   
  <tr id="docker.io-library-redis-latest">
     <td class="project-name"><a href="community-images/docker.io/library/redis/latest">Redis</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/5891314987"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/6105268096"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
     <td class="project-image">library/redis:latest</td>
-    <td class="project-last-update">2023-08-17T13:23:58.077Z</td>
+    <td class="project-last-update">2023-09-07T04:23:35.827Z</td>
     </tr>
 
  <tr id="docker.io-grafana-grafana-latest-ubuntu">
