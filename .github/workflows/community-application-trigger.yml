@@ -48,7 +48,8 @@ jobs:
       IMAGE_OS: ${{ github.event.inputs.os }}
       IMAGE_ARCH: ${{ github.event.inputs.arch }}
       DISCORD_ENDPOINT: ${{ secrets.DISCORD_ENDPOINT || vars.DISCORD_ENDPOINT }}
-      TRIGGER_URL: ${{ secrets.TRIGGER_URL }}
+      TRIGGER_URL: ${{ vars.TRIGGER_URL }}
+      LAMBDA_KEY: ${{ secrets.LAMBDA_KEY }}
     steps:
       - uses: actions/checkout@v3
       - uses: docker/login-action@v2
