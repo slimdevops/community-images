@@ -4,7 +4,7 @@
 URL="$TRIGGER_URL"
 
 # Define the data you want to send in JSON format
-DATA='{"registry": "'"$PROJECT_FULL_IMAGE_FAT"'", "namespace": "'"$PROJECT_FULL_IMAGE_SLIMMED"'", "repository": "'"$REPOSITORY"'", "digest": "'"$DIGEST"'", "tag": "'"$TAG"'"}'
+DATA='{"registry": "'"$PROJECT_FULL_IMAGE_FAT"'", "namespace": "'"$PROJECT_FULL_IMAGE_SLIMMED"'", "repository": "'"$PROJECT_TARGET_IMAGE"'", "digest": "'"$PROJECT_ORIGINAL_IMAGE"'", "tag": "'"$TAG"'"}'
 
 echo "$DATA"
 
