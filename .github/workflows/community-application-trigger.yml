@@ -70,9 +70,6 @@ jobs:
       - name: Configure Community Project
         working-directory: "${{ env.PROJECT_PATH }}"
         run: "${GITHUB_WORKSPACE}/bin/configure_project.sh && ${HOOK_EXEC} project-setup"
-      - name: Add to CIETL
-        working-directory: "${{ env.PROJECT_PATH }}"
-        run: "${GITHUB_WORKSPACE}/bin/add_to_cietl.sh"
       #FAT OPERATIONS
       - name: "Fat Containerization"
         working-directory: "${{ env.PROJECT_PATH }}"
@@ -98,7 +95,10 @@ jobs:
         env:
           STAGE: "FAT"
         run: "${GITHUB_WORKSPACE}/bin/cleanup.sh"
-
+      - name: Add to CIETL
+        run: |
+          chmod +x "${GITHUB_WORKSPACE}/bin/add_to_cietl.sh"
+          "${GITHUB_WORKSPACE}/bin/add_to_cietl.sh"
       #GENERATE SLIM/INSTRUMENT IMAGE
       - name: "Process Via Slim.ai"
         run: "${GITHUB_WORKSPACE}/bin/cli_instrument.sh"
@@ -230,4 +230,6 @@ jobs:
           ${GITHUB_WORKSPACE}/bin/submit_status.sh success
       - name: Add to CIETL
         if: success() && steps.project-identify.outputs.PROJECT_IDENTIFIED
-        run: "${GITHUB_WORKSPACE}/bin/add_to_cietl.sh"
+        run: |
+          chmod +x "${GITHUB_WORKSPACE}/bin/add_to_cietl.sh"
+          "${GITHUB_WORKSPACE}/bin/add_to_cietl.sh"
