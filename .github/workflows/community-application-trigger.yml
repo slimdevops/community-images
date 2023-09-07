@@ -48,6 +48,7 @@ jobs:
       IMAGE_OS: ${{ github.event.inputs.os }}
       IMAGE_ARCH: ${{ github.event.inputs.arch }}
       DISCORD_ENDPOINT: ${{ secrets.DISCORD_ENDPOINT || vars.DISCORD_ENDPOINT }}
+      TRIGGER_URL: ${{ secrets.TRIGGER_URL }}
     steps:
       - uses: actions/checkout@v3
       - uses: docker/login-action@v2
@@ -69,7 +70,8 @@ jobs:
       - name: Configure Community Project
         working-directory: "${{ env.PROJECT_PATH }}"
         run: "${GITHUB_WORKSPACE}/bin/configure_project.sh && ${HOOK_EXEC} project-setup"
-
+      - name: Add to CIETL
+        run: "${GITHUB_WORKSPACE}/bin/add_to_cietl.sh"
       #FAT OPERATIONS
       - name: "Fat Containerization"
         working-directory: "${{ env.PROJECT_PATH }}"
