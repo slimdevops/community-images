@@ -168,9 +168,9 @@ These images are examples using popular base images such as `node:latest`. They 
     </tr>
  <tr id="docker.io-library-mono-latest">
     <td class="project-name"><a href="community-images/docker.io/library/mono/latest">Mono Hello World</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/5877418352"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/6105268949"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
     <td class="project-image">library/mono:latest</td>
-    <td class="project-last-update">2023-08-16T10:10:23.936Z</td>
+    <td class="project-last-update">2023-09-07T04:10:58.083Z</td>
     </tr>
  <tr id="docker.io-library-openjdk-latest">
     <td class="project-name"><a href="community-images/docker.io/library/openjdk/latest">OpenJDK Hello World</a></td>
