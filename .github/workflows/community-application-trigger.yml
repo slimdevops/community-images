@@ -224,8 +224,6 @@ jobs:
           git pull
           git push origin HEAD:${GITHUB_REF}
           ${GITHUB_WORKSPACE}/bin/submit_status.sh success
-      - name: Add to CIETL
+      - name: Post Success
         if: success() && steps.project-identify.outputs.PROJECT_IDENTIFIED
-        run: |
-          chmod +x "${GITHUB_WORKSPACE}/bin/add_to_cietl.sh"
-          "${GITHUB_WORKSPACE}/bin/add_to_cietl.sh"
+        run: "${GITHUB_WORKSPACE}/bin/post_success.sh"
