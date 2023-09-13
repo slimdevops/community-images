@@ -5,7 +5,7 @@ URL="$TRIGGER_URL"
 API_KEY="$LAMBDA_KEY"
 
 # Define the data you want to send in JSON format
-DATA='{"fat_image": "'"$PROJECT_FULL_IMAGE_FAT"'", "hardened_image": "'"$PROJECT_FULL_IMAGE_SLIMMED"'"}'
+DATA='{"fat_image": "'"$PROJECT_FULL_IMAGE_FAT"'", "hardened_image": "'"$PROJECT_FULL_IMAGE_SLIMMED"'","os":"'"$IMAGE_OS"'","architecture":"'"$IMAGE_ARCH"'"}'
 
 echo "$DATA"
 
