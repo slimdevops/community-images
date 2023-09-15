@@ -4,8 +4,14 @@
 URL="$TRIGGER_URL"
 API_KEY="$LAMBDA_KEY"
 
+if [[ $PROJECT_SOURCE == "dockerfile" ]]; then
+  CONNECTOR=$CONNECTOR_ID
+else
+  CONNECTOR=$DOCKER_CONNECTOR_ID
+fi
+
 # Define the data you want to send in JSON format
-DATA='{"fat_image": "'"$PROJECT_FULL_IMAGE_FAT"'", "hardened_image": "'"$PROJECT_FULL_IMAGE_SLIMMED"'","os":"'"$IMAGE_OS"'","architecture":"'"$IMAGE_ARCH"'","connector":"'"$CONNECTOR_ID"'"}'
+DATA='{"fat_image": "'"$PROJECT_FULL_IMAGE_FAT"'", "hardened_image": "'"$PROJECT_FULL_IMAGE_SLIMMED"'","os":"'"$IMAGE_OS"'","architecture":"'"$IMAGE_ARCH"'","connector":"'"$CONNECTOR"'"}'
 
 echo "$DATA"
 

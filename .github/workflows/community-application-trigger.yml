@@ -42,6 +42,7 @@ jobs:
       TAG: ${{ github.event.inputs.tag }}
       SLIM_IMAGE_NS: ${{ secrets.SLIM_IMAGE_NS }}
       CONNECTOR_ID: ${{ secrets.CONNECTOR_ID }}
+      DOCKER_CONNECTOR_ID: ${{ secrets.DOCKER_CONNECTOR_ID }}
       ACTION_RUNNER_URL: "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
       SLIM_IMAGE_REGISTRY: ${{ secrets.SLIM_IMAGE_REGISTRY }}
       API_DOMAIN: ${{ secrets.API_DOMAIN }}
