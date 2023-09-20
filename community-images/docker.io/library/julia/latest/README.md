@@ -3,7 +3,7 @@
 
 Looking to ship library/julia to production in a secure way without spending hours wrestling with your Dockerfiles? 
 
-This community image example automatically hardens your application for production, reducing the size from 607 MB to 492 MB and removes 32 vulnerabilities along the way. 
+This community image example automatically hardens your application for production, reducing the size from 607 MB to 492 MB and removes 33 vulnerabilities along the way. 
 
 Images labelled `Hello World` are meant to be starting points for application development. Simply replace the Hello World app code with your own and re-run the process for similar results. Standalone applications can be used as is, or reconfigured to meet your needs. 
 
@@ -23,9 +23,9 @@ You can see the results of the slim tests here!
 | ---| --- | --- | --- | 
 | Size | 607 MB | 492 MB | 19.00 | 
 | File Count | 5423 | 679 | 87.00 | 
-| Vulnerabilities | 40 | 8 | 80.00 | 
+| Vulnerabilities | 44 | 11 | 75.00 | 
 | Critical Vulnerabilities | 0 | 0 | 
-| High Vulnerabilities | 2 | 0 | 
+| High Vulnerabilities | 3 | 0 | 
 
 
 You can check out the [new container image](https://portal.slim.dev/home/xray/dockerhub:%2F%2Fdockerhub.public%2Fslimdevops%2Fjulia:latest.slimxx#explorer) for yourself on the Slim Platform (free registration required). 
