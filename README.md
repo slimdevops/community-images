@@ -138,9 +138,9 @@ These images are examples using popular base images such as `node:latest`. They 
     </tr>
  <tr id="docker.io-library-haskell-latest">
     <td class="project-name"><a href="community-images/docker.io/library/haskell/latest">Haskell Hello World</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/6106532010"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/6258337529"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
     <td class="project-image">library/haskell:latest</td>
-    <td class="project-last-update">2023-09-07T07:20:01.349Z</td>
+    <td class="project-last-update">2023-09-21T07:22:12.160Z</td>
     </tr>
  <tr id="docker.io-library-golang-latest">
     <td class="project-name"><a href="community-images/docker.io/library/golang/latest">Golang Hello World</a></td>
