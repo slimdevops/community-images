@@ -198,9 +198,9 @@ These images are examples using popular base images such as `node:latest`. They 
     </tr>
  <tr id="docker.io-library-tomcat-latest">
     <td class="project-name"><a href="community-images/docker.io/library/tomcat/latest">Tomcat Hello World</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/6056993022"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/6393399453"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
     <td class="project-image">library/tomcat:latest</td>
-    <td class="project-last-update">2023-09-02T12:19:05.281Z</td>
+    <td class="project-last-update">2023-10-03T13:11:35.200Z</td>
     </tr>
  <tr id="docker.io-library-jetty-latest">
     <td class="project-name"><a href="community-images/docker.io/library/jetty/latest">Jetty Hello World</a></td>
