@@ -60,9 +60,9 @@ These images are examples using popular base images such as `node:latest`. They 
     </tr>
  <tr id="docker.io-library-ruby-latest">
     <td class="project-name"><a href="community-images/docker.io/library/ruby/latest">Ruby Hello World</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/6258337827"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/6498133694"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
     <td class="project-image">library/ruby:latest</td>
-    <td class="project-last-update">2023-09-21T07:11:58.019Z</td>
+    <td class="project-last-update">2023-10-12T16:11:00.176Z</td>
     </tr>
  <tr id="docker.io-library-ruby-3.1.3">
     <td class="project-name"><a href="community-images/docker.io/library/ruby/3.1.3">Ruby on Rails Hello World</a></td>
