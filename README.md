@@ -48,9 +48,9 @@ These images are examples using popular base images such as `node:latest`. They 
 
  <tr id="docker.io-library-node-latest">
     <td class="project-name"><a href="community-images/docker.io/library/node/latest">NodeJS Hello World</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/6357634884"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/6496063380"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
     <td class="project-image">library/node:latest</td>
-    <td class="project-last-update">2023-09-29T22:11:18.257Z</td>
+    <td class="project-last-update">2023-10-12T13:11:52.421Z</td>
     </tr>
  <tr id="docker.io-library-rust-latest">
     <td class="project-name"><a href="community-images/docker.io/library/rust/latest">Rust Hello World</a></td>
