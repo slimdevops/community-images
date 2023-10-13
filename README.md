@@ -72,9 +72,9 @@ These images are examples using popular base images such as `node:latest`. They 
     </tr>
  <tr id="docker.io-library-jruby-latest">
     <td class="project-name"><a href="community-images/docker.io/library/jruby/latest">JRuby Hello World</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/5861127275"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/6508624698"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
     <td class="project-image">library/jruby:latest</td>
-    <td class="project-last-update">2023-08-14T22:10:00.760Z</td>
+    <td class="project-last-update">2023-10-13T13:10:16.037Z</td>
     </tr>
  <tr id="docker.io-library-php-latest">
     <td class="project-name"><a href="community-images/docker.io/library/php/latest">PHP Hello World</a></td>
