@@ -156,9 +156,9 @@ These images are examples using popular base images such as `node:latest`. They 
     </tr>
  <tr id="docker.io-library-clojure-latest">
     <td class="project-name"><a href="community-images/docker.io/library/clojure/latest">Clojure Hello World</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/6391534860"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/6503876145"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
     <td class="project-image">library/clojure:latest</td>
-    <td class="project-last-update">2023-10-03T10:12:42.795Z</td>
+    <td class="project-last-update">2023-10-13T04:11:12.677Z</td>
     </tr>
  <tr id="docker.io-library-pypy-latest">
     <td class="project-name"><a href="community-images/docker.io/library/pypy/latest">PyPy & FastAPI Hello World</a></td>
