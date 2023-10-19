@@ -180,9 +180,9 @@ These images are examples using popular base images such as `node:latest`. They 
     </tr>
  <tr id="docker.io-library-amazoncorretto-latest">
     <td class="project-name"><a href="community-images/docker.io/library/amazoncorretto/latest">Amazon Corretto Hello World</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/6571063846"><img src="https://img.shields.io/badge/Build-Failing-red.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/6571063846"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
     <td class="project-image">library/amazoncorretto:latest</td>
-    <td class="project-last-update">2023-10-19T07:24:21.454Z</td>
+    <td class="project-last-update">2023-10-19T09:14:16.129Z</td>
     </tr>
  <tr id="docker.io-library-nginx-latest">
     <td class="project-name"><a href="community-images/docker.io/library/nginx/latest">NGINX Hello World</a></td>
