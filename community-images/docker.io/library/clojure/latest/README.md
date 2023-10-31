@@ -24,8 +24,8 @@ You can see the results of the slim tests here!
 | Size | 623 MB | 221 MB | 64.00 | 
 | File Count | 10699 | 634 | 94.00 | 
 | Vulnerabilities | 75 | 12 | 84.00 | 
-| Critical Vulnerabilities | 2 | 1 | 
-| High Vulnerabilities | 10 | 0 | 
+| Critical Vulnerabilities | 3 | 1 | 
+| High Vulnerabilities | 9 | 0 | 
 
 
 You can check out the [new container image](https://portal.slim.dev/home/xray/dockerhub:%2F%2Fdockerhub.public%2Fslimdevops%2Fclojure:latest.slimxx#explorer) for yourself on the Slim Platform (free registration required). 
