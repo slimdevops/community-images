@@ -37,12 +37,13 @@ log_output=$(slim instrument \
   $extraArgs \
   $BASEIMAGE 2>&1 | tee /dev/stderr)
 
-workflow_id=$(echo "$log_output" | grep -Eo 'workflow id: [a-zA-Z0-9\.]+')
-workflow_id=${workflow_id#"workflow id: "}
-
-if [[ $log_output =~ "[instrument] instrumented" ]]; then
+if [[ "$?" == "0" ]]; then
+  workflow_id=$(echo "$log_output" | grep -Eo 'workflow id: [a-zA-Z0-9\.]+')
+  workflow_id=${workflow_id#"workflow id: "}
   echo "The image has been successfully instrumented ($workflow_id)."
 else
+  workflow_id=$(echo "$log_output" | grep -Eo 'workflow id: [a-zA-Z0-9\.]+')
+  workflow_id=${workflow_id#"workflow id: "}
   echo "The image instrumentation failed ($workflow_id)."
   exit 1
 fi
