@@ -240,9 +240,9 @@ These applications are standalone containers that can run on their own. Where ne
 
  <tr id="docker.io-prom-prometheus-latest">
     <td class="project-name"><a href="community-images/docker.io/prom/prometheus/latest">Prometheus</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/6499858055"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/6887432417"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
     <td class="project-image">prom/prometheus:latest</td>
-    <td class="project-last-update">2023-10-12T19:10:39.183Z</td>
+    <td class="project-last-update">2023-11-16T07:09:41.800Z</td>
     </tr>
 
  <tr id="docker.io-library-drupal-9.4.9-php8.1">
