@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="https://www.slim.ai/">
-    <img src="https://www.slim.ai/_nuxt/img/logo_charcoal_424242.3a75b12.svg" alt="Logo" width="240">
+    <img src="https://assets-global.website-files.com/65145ef840f6bc11a8e583be/65145f32f81e333f3bda7ad4_Slim_Logo_Horizontal_Primary-p-500.png" alt="Logo" width="240">
   </a>
   <h1>Slim.AI's Community Image Repository</h1>
 </div>
