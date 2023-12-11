@@ -270,7 +270,7 @@ These applications are standalone containers that can run on their own. Where ne
     <td class="project-name"><a href="community-images/docker.io/library/gradle/latest">Gradle Build Jar</a></td>
     <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/7170124181"><img src="https://img.shields.io/badge/Build-Failing-red.svg" /></a></td>
     <td class="project-image">library/gradle:latest</td>
-    <td class="project-last-update">2023-12-11T16:11:05.986Z</td>
+    <td class="project-last-update">2023-12-11T18:16:11.407Z</td>
  </tr>
  
  <tr id="docker.io-jenkins-jenkins-latest">
