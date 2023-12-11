@@ -110,7 +110,7 @@ These images are examples using popular base images such as `node:latest`. They 
     <td class="project-name"><a href="community-images/docker.io/library/groovy/latest">Groovy Grails Hello World</a></td>
     <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/7170123536"><img src="https://img.shields.io/badge/Build-Failing-red.svg" /></a></td>
     <td class="project-image">library/groovy:latest</td>
-    <td class="project-last-update">2023-12-11T16:13:22.543Z</td>
+    <td class="project-last-update">2023-12-11T18:18:51.397Z</td>
     </tr>
  <tr id="docker.io-library-elixir-latest">
     <td class="project-name"><a href="community-images/docker.io/library/elixir/latest">Elixir Hello World</a></td>
