@@ -33,7 +33,7 @@ targetEntry=${targetEntry//__REPOSITORY__/$repository}
 targetEntry=${targetEntry//__TAG__/$tag}
 jsonDataUpdated=${jsonData//__TARGET_OBJECT_ENTRY__/$targetEntry}
 
-
+echo "$jsonDataUpdated"
 echo "$jsonDataUpdated" | ${SCRIPT_DIR}/execution_api.sh "$reportResultFile"
 if [[ "$?" != "0" ]]; then
     exit 1
