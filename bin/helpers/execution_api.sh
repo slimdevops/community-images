@@ -10,6 +10,8 @@ nx=$(curl -s -H 'Content-Type: application/json' -X POST -u :${API_TOKEN} https:
 executionID=$(jq -r '.id' <<<"${nx}")
 
 nxState="unknown"
+echo "SLIMAI_EXECUTION_ID: ${executionID}"
+
 while [[ ${nxState} != "completed" ]]; do
     nxState=$(curl -s -u :${API_TOKEN} https://${API_DOMAIN}/orgs/${ORGANIZATION_ID}/engine/executions/${executionID} | jq -r '.state')
     printf "Execution State: ${nxState}\n"
