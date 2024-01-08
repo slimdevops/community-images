@@ -35,7 +35,7 @@ log_output=$(slim instrument \
   --hardened-image-connector $CONNECTOR_ID \
   --hardened-image $PROJECT_IMAGE_SLIMMED \
   $extraArgs \
-  $BASEIMAGE 2>&1 | tee /dev/stderr)
+  $BASEIMAGE)
 
 if [[ "$?" == "0" ]]; then
   workflow_id=$(echo "$log_output" | grep -iEo 'workflow id: [a-zA-Z0-9\.]+')
