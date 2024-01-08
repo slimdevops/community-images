@@ -291,7 +291,7 @@ These applications are standalone containers that can run on their own. Where ne
     <td class="project-name"><a href="community-images/docker.io/focaloiddev/redis/7.2.6-docker-fix-rc1">Redis</a></td>
     <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/7445835576"><img src="https://img.shields.io/badge/Build-Failing-red.svg" /></a></td>
     <td class="project-image">focaloiddev/redis:7.2.6-docker-fix-rc1</td>
-    <td class="project-last-update">2024-01-08T10:11:53.387Z</td>
+    <td class="project-last-update">2024-01-08T10:33:34.886Z</td>
     </tr>
 </table>
 <!-- image-runner-status-table-base-image-edel -->
