@@ -24,7 +24,7 @@ You can see the results of the slim tests here!
 | Size | 1.0 GB | 101 MB | 89.00 | 
 | File Count | 27235 | 1466 | 94.00 | 
 | Vulnerabilities | 435 | 16 | 96.00 | 
-| Critical Vulnerabilities | 6 | 1 | 
+| Critical Vulnerabilities | 7 | 1 | 
 | High Vulnerabilities | 77 | 0 | 
 
 
