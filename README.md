@@ -256,7 +256,7 @@ These applications are standalone containers that can run on their own. Where ne
     <td class="project-name"><a href="community-images/docker.io/library/wordpress/latest">Wordpress</a></td>
     <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/7497774880"><img src="https://img.shields.io/badge/Build-Failing-red.svg" /></a></td>
     <td class="project-image">library/wordpress:latest</td>
-    <td class="project-last-update">2024-01-12T06:16:40.503Z</td>
+    <td class="project-last-update">2024-01-12T09:13:23.095Z</td>
     </tr>
 
  <tr id="docker.io-library-maven-latest">
