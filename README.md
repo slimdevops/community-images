@@ -108,9 +108,9 @@ These images are examples using popular base images such as `node:latest`. They 
     </tr>
  <tr id="docker.io-library-groovy-latest">
     <td class="project-name"><a href="community-images/docker.io/library/groovy/latest">Groovy Grails Hello World</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/7562330471"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/7591054340"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
     <td class="project-image">library/groovy:latest</td>
-    <td class="project-last-update">2024-01-17T22:15:12.825Z</td>
+    <td class="project-last-update">2024-01-20T01:13:21.951Z</td>
     </tr>
  <tr id="docker.io-library-elixir-latest">
     <td class="project-name"><a href="community-images/docker.io/library/elixir/latest">Elixir Hello World</a></td>
