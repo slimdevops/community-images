@@ -235,7 +235,7 @@ These applications are standalone containers that can run on their own. Where ne
     <td class="project-name"><a href="community-images/docker.io/grafana/grafana/latest-ubuntu">Grafana</a></td>
     <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/7628515588"><img src="https://img.shields.io/badge/Build-Failing-red.svg" /></a></td>
     <td class="project-image">grafana/grafana:latest-ubuntu</td>
-    <td class="project-last-update">2024-01-23T19:12:42.981Z</td>
+    <td class="project-last-update">2024-01-23T22:08:19.099Z</td>
     </tr>
 
  <tr id="docker.io-prom-prometheus-latest">
