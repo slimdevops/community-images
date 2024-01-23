@@ -3,7 +3,7 @@
 
 Looking to ship library/tomcat to production in a secure way without spending hours wrestling with your Dockerfiles? 
 
-This community image example automatically hardens your application for production, reducing the size from 472 MB to 241 MB and removes 15 vulnerabilities along the way. 
+This community image example automatically hardens your application for production, reducing the size from 472 MB to 241 MB and removes 19 vulnerabilities along the way. 
 
 Images labelled `Hello World` are meant to be starting points for application development. Simply replace the Hello World app code with your own and re-run the process for similar results. Standalone applications can be used as is, or reconfigured to meet your needs. 
 
@@ -23,7 +23,7 @@ You can see the results of the slim tests here!
 | ---| --- | --- | --- | 
 | Size | 472 MB | 241 MB | 48.00 | 
 | File Count | 6205 | 670 | 89.00 | 
-| Vulnerabilities | 41 | 26 | 36.00 | 
+| Vulnerabilities | 45 | 26 | 42.00 | 
 | Critical Vulnerabilities | 0 | 0 | 
 | High Vulnerabilities | 11 | 11 | 
 
