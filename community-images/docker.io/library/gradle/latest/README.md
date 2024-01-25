@@ -3,7 +3,7 @@
 
 Looking to ship library/gradle to production in a secure way without spending hours wrestling with your Dockerfiles? 
 
-This community image example automatically hardens your application for production, reducing the size from 712 MB to 339 MB and removes 29 vulnerabilities along the way. 
+This community image example automatically hardens your application for production, reducing the size from 712 MB to 339 MB and removes 33 vulnerabilities along the way. 
 
 Images labelled `Hello World` are meant to be starting points for application development. Simply replace the Hello World app code with your own and re-run the process for similar results. Standalone applications can be used as is, or reconfigured to meet your needs. 
 
@@ -23,7 +23,7 @@ You can see the results of the slim tests here!
 | ---| --- | --- | --- | 
 | Size | 712 MB | 339 MB | 52.00 | 
 | File Count | 11601 | 882 | 92.00 | 
-| Vulnerabilities | 39 | 10 | 74.00 | 
+| Vulnerabilities | 43 | 10 | 76.00 | 
 | Critical Vulnerabilities | 0 | 0 | 
 | High Vulnerabilities | 4 | 2 | 
 
