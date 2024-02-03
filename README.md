@@ -204,9 +204,9 @@ These images are examples using popular base images such as `node:latest`. They 
     </tr>
  <tr id="docker.io-library-jetty-latest">
     <td class="project-name"><a href="community-images/docker.io/library/jetty/latest">Jetty Hello World</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/7756377761"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/7764433996"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
     <td class="project-image">library/jetty:latest</td>
-    <td class="project-last-update">2024-02-02T13:10:16.879Z</td>
+    <td class="project-last-update">2024-02-03T04:09:33.202Z</td>
     </tr>
 </table>
 
