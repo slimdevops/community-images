@@ -275,9 +275,9 @@ These applications are standalone containers that can run on their own. Where ne
  
  <tr id="docker.io-jenkins-jenkins-latest">
     <td class="project-name"><a href="community-images/docker.io/jenkins/jenkins/latest">Jenkins</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/7714008285"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/7802593890"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
     <td class="project-image">jenkins/jenkins:latest</td>
-    <td class="project-last-update">2024-01-30T16:14:53.218Z</td>
+    <td class="project-last-update">2024-02-06T16:17:09.584Z</td>
     </tr>
     
  <tr id="docker.io-library-php-zendserver-latest">
