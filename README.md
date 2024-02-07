@@ -114,9 +114,9 @@ These images are examples using popular base images such as `node:latest`. They 
     </tr>
  <tr id="docker.io-library-elixir-latest">
     <td class="project-name"><a href="community-images/docker.io/library/elixir/latest">Elixir Hello World</a></td>
-    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/7746348709"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
+    <td class="project-status"><a href="https://github.com/slimdevops/community-images/actions/runs/7809768935"><img src="https://img.shields.io/badge/Build-Passing-green.svg" /></a></td>
     <td class="project-image">library/elixir:latest</td>
-    <td class="project-last-update">2024-02-01T19:12:52.607Z</td>
+    <td class="project-last-update">2024-02-07T04:12:01.429Z</td>
     </tr>
  <tr id="docker.io-library-haxe-latest">
     <td class="project-name"><a href="community-images/docker.io/library/haxe/latest">Haxe Hello World</a></td>
