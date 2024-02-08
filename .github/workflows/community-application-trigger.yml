@@ -196,6 +196,17 @@ jobs:
           path: "${{ env.PROJECT_PATH }}/vscan-xray-reports"
           retention-days: 5
 
+      - name: "Reachability analysis"
+        timeout-minutes: 30
+        run: ${GITHUB_WORKSPACE}/bin/reachability_report.sh
+
+      - name: "Reachability analysis artifact"
+        uses: actions/upload-artifact@v3
+        with:
+          name: "Reachable packages"
+          path: "${{ env.PROJECT_PATH }}/reachable-packages.json"
+          retention-days: 5
+
       - name: Pull Repo Changes
         if: always() && steps.project-identify.outputs.PROJECT_IDENTIFIED
         run: |
