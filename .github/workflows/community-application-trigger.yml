@@ -30,6 +30,11 @@ on:
         required: true
 run-name: "Running: ${{ github.event.inputs.registry}}/${{ github.event.inputs.namespace}}/${{ github.event.inputs.repository}}:${{ github.event.inputs.tag}}"
 
+permissions:
+  id-token: write
+  contents: write
+  packages: write
+
 jobs:
   build:
     runs-on: ubuntu-22.04
@@ -208,6 +213,13 @@ jobs:
           path: "${{ env.PROJECT_PATH }}/reachable-packages.json"
           retention-days: 5
         continue-on-error: true
+
+      - name: generate build provenance for container image
+        uses: github-early-access/generate-build-provenance@main
+        with:
+          subject-name: ${{ github.event.inputs.registry}}/${{ github.event.inputs.namespace}}/${{ github.event.inputs.repository}}:${{ github.event.inputs.tag}}
+          subject-digest: ${{ github.event.inputs.digest }}
+          push-to-registry: true      
 
       - name: Pull Repo Changes
         if: always() && steps.project-identify.outputs.PROJECT_IDENTIFIED
